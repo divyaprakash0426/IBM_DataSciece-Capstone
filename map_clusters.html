@@ -1,0 +1,4255 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_c8cc832430ca4b66a2abd94b03a171d4 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c8cc832430ca4b66a2abd94b03a171d4" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_c8cc832430ca4b66a2abd94b03a171d4 = L.map(
+                                  'map_c8cc832430ca4b66a2abd94b03a171d4',
+                                  {center: [32.7174209,-117.1627714],
+                                  zoom: 11,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_a679a07d79a4462cab4f2b6e6681bcea = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+        
+    
+            var circle_marker_6a08d2d4c1d9409b826abb4978ccf9c9 = L.circleMarker(
+                [32.71452000000005,-117.24454999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_76201538035c4ccd899557299f42a2ca = L.popup({maxWidth: '300'});
+
+            
+                var html_94a6bcd8d62b44139a060889bde8cbe1 = $('<div id="html_94a6bcd8d62b44139a060889bde8cbe1" style="width: 100.0%; height: 100.0%;">Wooded Area, San Diego - Cluster 0</div>')[0];
+                popup_76201538035c4ccd899557299f42a2ca.setContent(html_94a6bcd8d62b44139a060889bde8cbe1);
+            
+
+            circle_marker_6a08d2d4c1d9409b826abb4978ccf9c9.bindPopup(popup_76201538035c4ccd899557299f42a2ca);
+
+            
+        
+    
+            var circle_marker_3f9601c937ab4562905d81e7e4e11eaa = L.circleMarker(
+                [33.045690000000036,-117.27873999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_7943ccf1c91f4acda1383febf9354e52 = L.popup({maxWidth: '300'});
+
+            
+                var html_26d1ed9849034b73950ceed7a8f1c826 = $('<div id="html_26d1ed9849034b73950ceed7a8f1c826" style="width: 100.0%; height: 100.0%;">North City, San Diego - Cluster 0</div>')[0];
+                popup_7943ccf1c91f4acda1383febf9354e52.setContent(html_26d1ed9849034b73950ceed7a8f1c826);
+            
+
+            circle_marker_3f9601c937ab4562905d81e7e4e11eaa.bindPopup(popup_7943ccf1c91f4acda1383febf9354e52);
+
+            
+        
+    
+            var circle_marker_e221956bfede40208483b1cc67ffc32a = L.circleMarker(
+                [32.76314000000008,-117.11004999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_5026659d241d41e8b07153df626af37f = L.popup({maxWidth: '300'});
+
+            
+                var html_0c8f4be0c36949f687b8326e91684792 = $('<div id="html_0c8f4be0c36949f687b8326e91684792" style="width: 100.0%; height: 100.0%;">Normal Heights, San Diego - Cluster 0</div>')[0];
+                popup_5026659d241d41e8b07153df626af37f.setContent(html_0c8f4be0c36949f687b8326e91684792);
+            
+
+            circle_marker_e221956bfede40208483b1cc67ffc32a.bindPopup(popup_5026659d241d41e8b07153df626af37f);
+
+            
+        
+    
+            var circle_marker_dce3156621554ce29973a181a9785933 = L.circleMarker(
+                [32.576490000000035,-117.08840999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b8160a95394440ff8b84c4b021ddfdb2 = L.popup({maxWidth: '300'});
+
+            
+                var html_4d656db8f84d4731bc3236a3a84b390d = $('<div id="html_4d656db8f84d4731bc3236a3a84b390d" style="width: 100.0%; height: 100.0%;">Nestor, San Diego - Cluster 0</div>')[0];
+                popup_b8160a95394440ff8b84c4b021ddfdb2.setContent(html_4d656db8f84d4731bc3236a3a84b390d);
+            
+
+            circle_marker_dce3156621554ce29973a181a9785933.bindPopup(popup_b8160a95394440ff8b84c4b021ddfdb2);
+
+            
+        
+    
+            var circle_marker_bb788e38da4d4326901158c377f9b98e = L.circleMarker(
+                [32.80181799146506,-117.04993665508616],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_fb5c36285eb944eea74a48e2614fddd1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e47b2ed97d74da0ac80316836cb256d = $('<div id="html_9e47b2ed97d74da0ac80316836cb256d" style="width: 100.0%; height: 100.0%;">Navajo, San Diego - Cluster 0</div>')[0];
+                popup_fb5c36285eb944eea74a48e2614fddd1.setContent(html_9e47b2ed97d74da0ac80316836cb256d);
+            
+
+            circle_marker_bb788e38da4d4326901158c377f9b98e.bindPopup(popup_fb5c36285eb944eea74a48e2614fddd1);
+
+            
+        
+    
+            var circle_marker_bab199de2edb4edba4608648022dda88 = L.circleMarker(
+                [32.703050000000076,-117.10808999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9e4ac6c2f2904fe39d30b3cf2b2d0351 = L.popup({maxWidth: '300'});
+
+            
+                var html_14ecb5e24026403e8728b343dc13459f = $('<div id="html_14ecb5e24026403e8728b343dc13459f" style="width: 100.0%; height: 100.0%;">Mountain View, San Diego - Cluster 0</div>')[0];
+                popup_9e4ac6c2f2904fe39d30b3cf2b2d0351.setContent(html_14ecb5e24026403e8728b343dc13459f);
+            
+
+            circle_marker_bab199de2edb4edba4608648022dda88.bindPopup(popup_9e4ac6c2f2904fe39d30b3cf2b2d0351);
+
+            
+        
+    
+            var circle_marker_6afb945c11554e31aa5d3db4312b6c49 = L.circleMarker(
+                [32.71148000000005,-117.10892999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9d3026d415ab4b289983fa428fde7fa3 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8baada66ae74b4995e5badff92324cd = $('<div id="html_f8baada66ae74b4995e5badff92324cd" style="width: 100.0%; height: 100.0%;">Mount Hope, San Diego - Cluster 0</div>')[0];
+                popup_9d3026d415ab4b289983fa428fde7fa3.setContent(html_f8baada66ae74b4995e5badff92324cd);
+            
+
+            circle_marker_6afb945c11554e31aa5d3db4312b6c49.bindPopup(popup_9d3026d415ab4b289983fa428fde7fa3);
+
+            
+        
+    
+            var circle_marker_6912e1c9590f4bf6839228970e414d03 = L.circleMarker(
+                [32.769490000000076,-117.19006999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f089c5cdb3ce4942bbcbbd022a7fed28 = L.popup({maxWidth: '300'});
+
+            
+                var html_346c8f6a359147ecbf506b9bed141b9a = $('<div id="html_346c8f6a359147ecbf506b9bed141b9a" style="width: 100.0%; height: 100.0%;">Morena, San Diego - Cluster 0</div>')[0];
+                popup_f089c5cdb3ce4942bbcbbd022a7fed28.setContent(html_346c8f6a359147ecbf506b9bed141b9a);
+            
+
+            circle_marker_6912e1c9590f4bf6839228970e414d03.bindPopup(popup_f089c5cdb3ce4942bbcbbd022a7fed28);
+
+            
+        
+    
+            var circle_marker_f8aaafd6271d445ba3fa4fe2b5aa503a = L.circleMarker(
+                [32.738050000000044,-117.09782999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_2a785136be66482093fa61639e37baeb = L.popup({maxWidth: '300'});
+
+            
+                var html_1edca304e8f44d09ba21a5e463e4501b = $('<div id="html_1edca304e8f44d09ba21a5e463e4501b" style="width: 100.0%; height: 100.0%;">Swan Canyon, San Diego - Cluster 0</div>')[0];
+                popup_2a785136be66482093fa61639e37baeb.setContent(html_1edca304e8f44d09ba21a5e463e4501b);
+            
+
+            circle_marker_f8aaafd6271d445ba3fa4fe2b5aa503a.bindPopup(popup_2a785136be66482093fa61639e37baeb);
+
+            
+        
+    
+            var circle_marker_10c89bb04f184ccf86d574342bec202e = L.circleMarker(
+                [32.752500000000055,-117.18033999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_ebc39ca41dbd4c29a5393f1432c3f24f = L.popup({maxWidth: '300'});
+
+            
+                var html_f0ff3710fe0b4a408c9ace11321bc810 = $('<div id="html_f0ff3710fe0b4a408c9ace11321bc810" style="width: 100.0%; height: 100.0%;">Mission Hills, San Diego - Cluster 0</div>')[0];
+                popup_ebc39ca41dbd4c29a5393f1432c3f24f.setContent(html_f0ff3710fe0b4a408c9ace11321bc810);
+            
+
+            circle_marker_10c89bb04f184ccf86d574342bec202e.bindPopup(popup_ebc39ca41dbd4c29a5393f1432c3f24f);
+
+            
+        
+    
+            var circle_marker_902bdfbb99f9430a90d4050a728f45fd = L.circleMarker(
+                [32.772500000000036,-117.25121999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9d290b1df04f4bec841aa5ffbe6ac1a5 = L.popup({maxWidth: '300'});
+
+            
+                var html_1d694d1ca86c4496ad13134297e5060b = $('<div id="html_1d694d1ca86c4496ad13134297e5060b" style="width: 100.0%; height: 100.0%;">Mission Beach, San Diego - Cluster 0</div>')[0];
+                popup_9d290b1df04f4bec841aa5ffbe6ac1a5.setContent(html_1d694d1ca86c4496ad13134297e5060b);
+            
+
+            circle_marker_902bdfbb99f9430a90d4050a728f45fd.bindPopup(popup_9d290b1df04f4bec841aa5ffbe6ac1a5);
+
+            
+        
+    
+            var circle_marker_6e2886ee708441f084b419553ebc77db = L.circleMarker(
+                [32.7044629858126,-117.1185198734712],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_4e7c91f21f0643ad93a1ae30c24814b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b5d1b83c4f4348bc890bd9b13e97c11e = $('<div id="html_b5d1b83c4f4348bc890bd9b13e97c11e" style="width: 100.0%; height: 100.0%;">Webster, San Diego - Cluster 0</div>')[0];
+                popup_4e7c91f21f0643ad93a1ae30c24814b4.setContent(html_b5d1b83c4f4348bc890bd9b13e97c11e);
+            
+
+            circle_marker_6e2886ee708441f084b419553ebc77db.bindPopup(popup_4e7c91f21f0643ad93a1ae30c24814b4);
+
+            
+        
+    
+            var circle_marker_805d9eb99c8f4065b6194e9389423ec0 = L.circleMarker(
+                [32.91225000000003,-117.15071999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_a16f86a50b8847f79c68eb92a2617186 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb87066145b6489885c498d1c16a0cc1 = $('<div id="html_eb87066145b6489885c498d1c16a0cc1" style="width: 100.0%; height: 100.0%;">Mira Mesa, San Diego - Cluster 0</div>')[0];
+                popup_a16f86a50b8847f79c68eb92a2617186.setContent(html_eb87066145b6489885c498d1c16a0cc1);
+            
+
+            circle_marker_805d9eb99c8f4065b6194e9389423ec0.bindPopup(popup_a16f86a50b8847f79c68eb92a2617186);
+
+            
+        
+    
+            var circle_marker_ddcbe9d1b95349729157ab1a78bad299 = L.circleMarker(
+                [32.714770000000044,-117.17310999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_842854ed585a42a187231967ba4778d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_e021161bd76f46829f30b698c9a90cc3 = $('<div id="html_e021161bd76f46829f30b698c9a90cc3" style="width: 100.0%; height: 100.0%;">Midway, San Diego - Cluster 0</div>')[0];
+                popup_842854ed585a42a187231967ba4778d0.setContent(html_e021161bd76f46829f30b698c9a90cc3);
+            
+
+            circle_marker_ddcbe9d1b95349729157ab1a78bad299.bindPopup(popup_842854ed585a42a187231967ba4778d0);
+
+            
+        
+    
+            var circle_marker_90275cb296154ebfb91caef651880fb6 = L.circleMarker(
+                [32.71568000000008,-117.16170999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_8da6e2f349d4464f9be61ba42972cb7d = L.popup({maxWidth: '300'});
+
+            
+                var html_589d95353d834f328415cf3ed0dc5c12 = $('<div id="html_589d95353d834f328415cf3ed0dc5c12" style="width: 100.0%; height: 100.0%;">Midtown, San Diego - Cluster 0</div>')[0];
+                popup_8da6e2f349d4464f9be61ba42972cb7d.setContent(html_589d95353d834f328415cf3ed0dc5c12);
+            
+
+            circle_marker_90275cb296154ebfb91caef651880fb6.bindPopup(popup_8da6e2f349d4464f9be61ba42972cb7d);
+
+            
+        
+    
+            var circle_marker_b550f2fb116e44c5afc9114ec4345296 = L.circleMarker(
+                [32.737220000000036,-117.17591999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_7b3ea89c2a384bf8bfa126fcf8ee02a0 = L.popup({maxWidth: '300'});
+
+            
+                var html_706678a58fb94b8490fa84b0a99f8408 = $('<div id="html_706678a58fb94b8490fa84b0a99f8408" style="width: 100.0%; height: 100.0%;">Middletown, San Diego - Cluster 0</div>')[0];
+                popup_7b3ea89c2a384bf8bfa126fcf8ee02a0.setContent(html_706678a58fb94b8490fa84b0a99f8408);
+            
+
+            circle_marker_b550f2fb116e44c5afc9114ec4345296.bindPopup(popup_7b3ea89c2a384bf8bfa126fcf8ee02a0);
+
+            
+        
+    
+            var circle_marker_4488a07364284e4da525e3386d156366 = L.circleMarker(
+                [32.69598000000008,-117.12562999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c703e1e0654f4dacb794854103d55c36 = L.popup({maxWidth: '300'});
+
+            
+                var html_a866ffd035b1495492fcbd8005a306c5 = $('<div id="html_a866ffd035b1495492fcbd8005a306c5" style="width: 100.0%; height: 100.0%;">Memorial, San Diego - Cluster 0</div>')[0];
+                popup_c703e1e0654f4dacb794854103d55c36.setContent(html_a866ffd035b1495492fcbd8005a306c5);
+            
+
+            circle_marker_4488a07364284e4da525e3386d156366.bindPopup(popup_c703e1e0654f4dacb794854103d55c36);
+
+            
+        
+    
+            var circle_marker_6e388fbadf2746e794a83a15c12e7eea = L.circleMarker(
+                [32.72705219258814,-117.1242533604426],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_3539d5d82cec43aa9f06bb4634264bc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5a8a67432944a91a2e4a03b2931131f = $('<div id="html_e5a8a67432944a91a2e4a03b2931131f" style="width: 100.0%; height: 100.0%;">Marston Hills, San Diego - Cluster 0</div>')[0];
+                popup_3539d5d82cec43aa9f06bb4634264bc9.setContent(html_e5a8a67432944a91a2e4a03b2931131f);
+            
+
+            circle_marker_6e388fbadf2746e794a83a15c12e7eea.bindPopup(popup_3539d5d82cec43aa9f06bb4634264bc9);
+
+            
+        
+    
+            var circle_marker_04951f97816a4f9d99c04e47126836b9 = L.circleMarker(
+                [32.71096000000006,-117.16559999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_6248275628c840e49fcf1bcf45c82d63 = L.popup({maxWidth: '300'});
+
+            
+                var html_29190a7eefa044fab0461e7dcf79aab1 = $('<div id="html_29190a7eefa044fab0461e7dcf79aab1" style="width: 100.0%; height: 100.0%;">Marina, San Diego - Cluster 0</div>')[0];
+                popup_6248275628c840e49fcf1bcf45c82d63.setContent(html_29190a7eefa044fab0461e7dcf79aab1);
+            
+
+            circle_marker_04951f97816a4f9d99c04e47126836b9.bindPopup(popup_6248275628c840e49fcf1bcf45c82d63);
+
+            
+        
+    
+            var circle_marker_c86ccdf9d163465485be53ba03ab66a7 = L.circleMarker(
+                [32.76390988047549,-117.14432717406076],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b6f45e34a73547f7b7b2e2c9b14e1655 = L.popup({maxWidth: '300'});
+
+            
+                var html_2cc2021eb32347eea44d1abb8651f22c = $('<div id="html_2cc2021eb32347eea44d1abb8651f22c" style="width: 100.0%; height: 100.0%;">Lomita, San Diego - Cluster 0</div>')[0];
+                popup_b6f45e34a73547f7b7b2e2c9b14e1655.setContent(html_2cc2021eb32347eea44d1abb8651f22c);
+            
+
+            circle_marker_c86ccdf9d163465485be53ba03ab66a7.bindPopup(popup_b6f45e34a73547f7b7b2e2c9b14e1655);
+
+            
+        
+    
+            var circle_marker_c783a7cbc6e044569c28713c958c5da5 = L.circleMarker(
+                [32.76240000000007,-117.08943999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_378398c3996d43429b7d2243e910a4ca = L.popup({maxWidth: '300'});
+
+            
+                var html_b289885c9d2f47a88f8703c2841d8379 = $('<div id="html_b289885c9d2f47a88f8703c2841d8379" style="width: 100.0%; height: 100.0%;">Talmadge, San Diego - Cluster 0</div>')[0];
+                popup_378398c3996d43429b7d2243e910a4ca.setContent(html_b289885c9d2f47a88f8703c2841d8379);
+            
+
+            circle_marker_c783a7cbc6e044569c28713c958c5da5.bindPopup(popup_378398c3996d43429b7d2243e910a4ca);
+
+            
+        
+    
+            var circle_marker_78a6cc27426847098604989875b79fd0 = L.circleMarker(
+                [32.70284000000004,-117.13740999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e003d8799b3f4de9b2ea24154ea2bd38 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d3bbe96b6164787a6b769085c469639 = $('<div id="html_3d3bbe96b6164787a6b769085c469639" style="width: 100.0%; height: 100.0%;">Logan Heights, San Diego - Cluster 0</div>')[0];
+                popup_e003d8799b3f4de9b2ea24154ea2bd38.setContent(html_3d3bbe96b6164787a6b769085c469639);
+            
+
+            circle_marker_78a6cc27426847098604989875b79fd0.bindPopup(popup_e003d8799b3f4de9b2ea24154ea2bd38);
+
+            
+        
+    
+            var circle_marker_54786c6d607a43e8b52f32fb5aa1b2e8 = L.circleMarker(
+                [32.74526000000003,-117.13234999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_d2ee0d782abf4c7c9556c4635f86cff9 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef2db02e28c94b58b165511b160959c8 = $('<div id="html_ef2db02e28c94b58b165511b160959c8" style="width: 100.0%; height: 100.0%;">North Park, San Diego - Cluster 0</div>')[0];
+                popup_d2ee0d782abf4c7c9556c4635f86cff9.setContent(html_ef2db02e28c94b58b165511b160959c8);
+            
+
+            circle_marker_54786c6d607a43e8b52f32fb5aa1b2e8.bindPopup(popup_d2ee0d782abf4c7c9556c4635f86cff9);
+
+            
+        
+    
+            var circle_marker_a2dc3e67bc2e47928b140c49af8789e0 = L.circleMarker(
+                [32.734680000000026,-117.07740999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f80ca0b0500d457fb1fbb791ce55e55d = L.popup({maxWidth: '300'});
+
+            
+                var html_70c24a73de2c45b584da2c21b059796f = $('<div id="html_70c24a73de2c45b584da2c21b059796f" style="width: 100.0%; height: 100.0%;">Oak Park, San Diego - Cluster 0</div>')[0];
+                popup_f80ca0b0500d457fb1fbb791ce55e55d.setContent(html_70c24a73de2c45b584da2c21b059796f);
+            
+
+            circle_marker_a2dc3e67bc2e47928b140c49af8789e0.bindPopup(popup_f80ca0b0500d457fb1fbb791ce55e55d);
+
+            
+        
+    
+            var circle_marker_92af4c213dfb42bf8be84205d99edf74 = L.circleMarker(
+                [32.71176000000003,-117.12247999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_5fe877dd765d4ee8a6d55c7c90110770 = L.popup({maxWidth: '300'});
+
+            
+                var html_13229f5b310e4385aa0c2d682584abea = $('<div id="html_13229f5b310e4385aa0c2d682584abea" style="width: 100.0%; height: 100.0%;">Stockton, San Diego - Cluster 0</div>')[0];
+                popup_5fe877dd765d4ee8a6d55c7c90110770.setContent(html_13229f5b310e4385aa0c2d682584abea);
+            
+
+            circle_marker_92af4c213dfb42bf8be84205d99edf74.bindPopup(popup_5fe877dd765d4ee8a6d55c7c90110770);
+
+            
+        
+    
+            var circle_marker_59f4cc59c2024b7e826a9328b364cd40 = L.circleMarker(
+                [32.71568000000008,-117.16170999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_6d32e9d20f864ffb91603b22d730e057 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c84d967b4844254b98d51b737386c5e = $('<div id="html_2c84d967b4844254b98d51b737386c5e" style="width: 100.0%; height: 100.0%;">Stingaree, San Diego - Cluster 0</div>')[0];
+                popup_6d32e9d20f864ffb91603b22d730e057.setContent(html_2c84d967b4844254b98d51b737386c5e);
+            
+
+            circle_marker_59f4cc59c2024b7e826a9328b364cd40.bindPopup(popup_6d32e9d20f864ffb91603b22d730e057);
+
+            
+        
+    
+            var circle_marker_9640e067aeb541c4af04c395037a218b = L.circleMarker(
+                [32.68665000000004,-117.10696999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_4602bea3e1f34e88b55dafe5841a6a46 = L.popup({maxWidth: '300'});
+
+            
+                var html_c23880dd3ccc4f22b7236cd742fd6257 = $('<div id="html_c23880dd3ccc4f22b7236cd742fd6257" style="width: 100.0%; height: 100.0%;">Shelltown, San Diego - Cluster 0</div>')[0];
+                popup_4602bea3e1f34e88b55dafe5841a6a46.setContent(html_c23880dd3ccc4f22b7236cd742fd6257);
+            
+
+            circle_marker_9640e067aeb541c4af04c395037a218b.bindPopup(popup_4602bea3e1f34e88b55dafe5841a6a46);
+
+            
+        
+    
+            var circle_marker_a7caa30ca51c4df398f2d50d3d10b41a = L.circleMarker(
+                [32.79598000000004,-117.12493999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e8967d63f31942e596d86552360ca6bc = L.popup({maxWidth: '300'});
+
+            
+                var html_a52c3f8158e84d2d9c5023bc6c8bdf8f = $('<div id="html_a52c3f8158e84d2d9c5023bc6c8bdf8f" style="width: 100.0%; height: 100.0%;">Serra Mesa, San Diego - Cluster 0</div>')[0];
+                popup_e8967d63f31942e596d86552360ca6bc.setContent(html_a52c3f8158e84d2d9c5023bc6c8bdf8f);
+            
+
+            circle_marker_a7caa30ca51c4df398f2d50d3d10b41a.bindPopup(popup_e8967d63f31942e596d86552360ca6bc);
+
+            
+        
+    
+            var circle_marker_92bdce1a7e5a4c70a5cb555de0de84af = L.circleMarker(
+                [32.56175864868747,-117.06777449154765],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_7b2726aa8a74405f965554b4f6d5bf65 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b23e56a6b9546378142201bb271ebb5 = $('<div id="html_2b23e56a6b9546378142201bb271ebb5" style="width: 100.0%; height: 100.0%;">San Ysidro, San Diego - Cluster 0</div>')[0];
+                popup_7b2726aa8a74405f965554b4f6d5bf65.setContent(html_2b23e56a6b9546378142201bb271ebb5);
+            
+
+            circle_marker_92bdce1a7e5a4c70a5cb555de0de84af.bindPopup(popup_7b2726aa8a74405f965554b4f6d5bf65);
+
+            
+        
+    
+            var circle_marker_738926fccee24444a18fa693a077abf4 = L.circleMarker(
+                [33.091381483900726,-116.94114282303612],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_85bf11d80d58448c89515cfa50cd88d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd8101bbedfd4d7ab7488901d110acc1 = $('<div id="html_dd8101bbedfd4d7ab7488901d110acc1" style="width: 100.0%; height: 100.0%;">San Pasqual Valley, San Diego - Cluster 0</div>')[0];
+                popup_85bf11d80d58448c89515cfa50cd88d8.setContent(html_dd8101bbedfd4d7ab7488901d110acc1);
+            
+
+            circle_marker_738926fccee24444a18fa693a077abf4.bindPopup(popup_85bf11d80d58448c89515cfa50cd88d8);
+
+            
+        
+    
+            var circle_marker_3f2a525deeff4071bfaa9a683dd78db6 = L.circleMarker(
+                [32.80373000000003,-117.05103999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_43d9fa67a8ad4d17847a6917c06a1472 = L.popup({maxWidth: '300'});
+
+            
+                var html_aef46fb215db43778b2f0c09387e32a5 = $('<div id="html_aef46fb215db43778b2f0c09387e32a5" style="width: 100.0%; height: 100.0%;">San Carlos, San Diego - Cluster 0</div>')[0];
+                popup_43d9fa67a8ad4d17847a6917c06a1472.setContent(html_aef46fb215db43778b2f0c09387e32a5);
+            
+
+            circle_marker_3f2a525deeff4071bfaa9a683dd78db6.bindPopup(popup_43d9fa67a8ad4d17847a6917c06a1472);
+
+            
+        
+    
+            var circle_marker_3e24abd7324c4463920a789410bc2c95 = L.circleMarker(
+                [32.94473000000005,-117.09231999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_8f5e34f7294a4466a1a9c3f228545255 = L.popup({maxWidth: '300'});
+
+            
+                var html_305b2fd2a74644ab9cf6796df5551b60 = $('<div id="html_305b2fd2a74644ab9cf6796df5551b60" style="width: 100.0%; height: 100.0%;">Sabre Springs, San Diego - Cluster 0</div>')[0];
+                popup_8f5e34f7294a4466a1a9c3f228545255.setContent(html_305b2fd2a74644ab9cf6796df5551b60);
+            
+
+            circle_marker_3e24abd7324c4463920a789410bc2c95.bindPopup(popup_8f5e34f7294a4466a1a9c3f228545255);
+
+            
+        
+    
+            var circle_marker_2d0289c9031648ceaa31c2d0595878f4 = L.circleMarker(
+                [32.72630000000004,-117.23768999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_10ebd7e30e45488ebdcc00ce2991de00 = L.popup({maxWidth: '300'});
+
+            
+                var html_f2d2851320c24ace94b32a99fd0b63c8 = $('<div id="html_f2d2851320c24ace94b32a99fd0b63c8" style="width: 100.0%; height: 100.0%;">Roseville-Fleetridge, San Diego - Cluster 0</div>')[0];
+                popup_10ebd7e30e45488ebdcc00ce2991de00.setContent(html_f2d2851320c24ace94b32a99fd0b63c8);
+            
+
+            circle_marker_2d0289c9031648ceaa31c2d0595878f4.bindPopup(popup_10ebd7e30e45488ebdcc00ce2991de00);
+
+            
+        
+    
+            var circle_marker_32b0d9b7e12e478a83981587f9457e64 = L.circleMarker(
+                [32.70748000000003,-117.04618999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_8af9c03943a44b6da2ab7a7b5f581c2f = L.popup({maxWidth: '300'});
+
+            
+                var html_d265345d31ec41759d272a95967ed89d = $('<div id="html_d265345d31ec41759d272a95967ed89d" style="width: 100.0%; height: 100.0%;">Skyline, San Diego - Cluster 0</div>')[0];
+                popup_8af9c03943a44b6da2ab7a7b5f581c2f.setContent(html_d265345d31ec41759d272a95967ed89d);
+            
+
+            circle_marker_32b0d9b7e12e478a83981587f9457e64.bindPopup(popup_8af9c03943a44b6da2ab7a7b5f581c2f);
+
+            
+        
+    
+            var circle_marker_ff312eef40944bc5b8b32da97856fbe6 = L.circleMarker(
+                [32.73846003820117,-117.11041512297713],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_44dd5538dfda4dbaa544a160a50f1ae6 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ca8153d7d994a00b71bfabe9051775d = $('<div id="html_8ca8153d7d994a00b71bfabe9051775d" style="width: 100.0%; height: 100.0%;">Redwood Village, San Diego - Cluster 0</div>')[0];
+                popup_44dd5538dfda4dbaa544a160a50f1ae6.setContent(html_8ca8153d7d994a00b71bfabe9051775d);
+            
+
+            circle_marker_ff312eef40944bc5b8b32da97856fbe6.bindPopup(popup_44dd5538dfda4dbaa544a160a50f1ae6);
+
+            
+        
+    
+            var circle_marker_1dc0857d1dee4e94b5622437eba320a2 = L.circleMarker(
+                [32.96160000000003,-117.12845999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_d23238ee7c0e4984836903d4bcec3ce8 = L.popup({maxWidth: '300'});
+
+            
+                var html_df9369883c3d48a5bb77b3683ad651bd = $('<div id="html_df9369883c3d48a5bb77b3683ad651bd" style="width: 100.0%; height: 100.0%;">Rancho Peñasquitos, San Diego - Cluster 0</div>')[0];
+                popup_d23238ee7c0e4984836903d4bcec3ce8.setContent(html_df9369883c3d48a5bb77b3683ad651bd);
+            
+
+            circle_marker_1dc0857d1dee4e94b5622437eba320a2.bindPopup(popup_d23238ee7c0e4984836903d4bcec3ce8);
+
+            
+        
+    
+            var circle_marker_0a672400b29c47488a7fa2a7e5a9279d = L.circleMarker(
+                [32.72586000000007,-117.1676],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_cfc4727cd3b84cce833ac5ee84172cdd = L.popup({maxWidth: '300'});
+
+            
+                var html_705ddc772b734e31a5a1c63a2659cb9f = $('<div id="html_705ddc772b734e31a5a1c63a2659cb9f" style="width: 100.0%; height: 100.0%;">Little Italy, San Diego - Cluster 0</div>')[0];
+                popup_cfc4727cd3b84cce833ac5ee84172cdd.setContent(html_705ddc772b734e31a5a1c63a2659cb9f);
+            
+
+            circle_marker_0a672400b29c47488a7fa2a7e5a9279d.bindPopup(popup_cfc4727cd3b84cce833ac5ee84172cdd);
+
+            
+        
+    
+            var circle_marker_aecceb129f3c4ca388534b08a99bb238 = L.circleMarker(
+                [32.92718000000008,-117.01959999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_8c2c257a5b4140bf86ae6565d2aa7151 = L.popup({maxWidth: '300'});
+
+            
+                var html_497286d0d8af48b5ba98671a6b0af354 = $('<div id="html_497286d0d8af48b5ba98671a6b0af354" style="width: 100.0%; height: 100.0%;">Rancho Encantada, San Diego - Cluster 0</div>')[0];
+                popup_8c2c257a5b4140bf86ae6565d2aa7151.setContent(html_497286d0d8af48b5ba98671a6b0af354);
+            
+
+            circle_marker_aecceb129f3c4ca388534b08a99bb238.bindPopup(popup_8c2c257a5b4140bf86ae6565d2aa7151);
+
+            
+        
+    
+            var circle_marker_72a14b9444c04e70bb0074670a5592b8 = L.circleMarker(
+                [32.71231000000006,-117.24824999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b34e17ff0b64400f96b0feb45563a88b = L.popup({maxWidth: '300'});
+
+            
+                var html_e090a7cdc7684e3e833d62796b6d009f = $('<div id="html_e090a7cdc7684e3e833d62796b6d009f" style="width: 100.0%; height: 100.0%;">Point Loma, San Diego - Cluster 0</div>')[0];
+                popup_b34e17ff0b64400f96b0feb45563a88b.setContent(html_e090a7cdc7684e3e833d62796b6d009f);
+            
+
+            circle_marker_72a14b9444c04e70bb0074670a5592b8.bindPopup(popup_b34e17ff0b64400f96b0feb45563a88b);
+
+            
+        
+    
+            var circle_marker_69210544819b442a8f29037750a92641 = L.circleMarker(
+                [32.58378000000005,-117.09651999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_74e941e565494d4d8c381274f26413e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_9306feb529fb4660bb1859382c1742c2 = $('<div id="html_9306feb529fb4660bb1859382c1742c2" style="width: 100.0%; height: 100.0%;">South San Diego - Cluster 0</div>')[0];
+                popup_74e941e565494d4d8c381274f26413e5.setContent(html_9306feb529fb4660bb1859382c1742c2);
+            
+
+            circle_marker_69210544819b442a8f29037750a92641.bindPopup(popup_74e941e565494d4d8c381274f26413e5);
+
+            
+        
+    
+            var circle_marker_a1e05834256b4e1cb105cd6adffe1e10 = L.circleMarker(
+                [32.68130000000008,-117.06004999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_729a671376884cd99eadd6aa01099205 = L.popup({maxWidth: '300'});
+
+            
+                var html_4c3189e4cd6a4c38b0adeb4a54fb0001 = $('<div id="html_4c3189e4cd6a4c38b0adeb4a54fb0001" style="width: 100.0%; height: 100.0%;">Paradise Hills, San Diego - Cluster 0</div>')[0];
+                popup_729a671376884cd99eadd6aa01099205.setContent(html_4c3189e4cd6a4c38b0adeb4a54fb0001);
+            
+
+            circle_marker_a1e05834256b4e1cb105cd6adffe1e10.bindPopup(popup_729a671376884cd99eadd6aa01099205);
+
+            
+        
+    
+            var circle_marker_eaffab3c2fa84bfcb78d5fceec0dfe09 = L.circleMarker(
+                [32.584430000000054,-117.08406999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_41d70165f1ce4f678e1049282a730642 = L.popup({maxWidth: '300'});
+
+            
+                var html_38900916742f41bb81cec2e8b46d8299 = $('<div id="html_38900916742f41bb81cec2e8b46d8299" style="width: 100.0%; height: 100.0%;">Palm City, San Diego - Cluster 0</div>')[0];
+                popup_41d70165f1ce4f678e1049282a730642.setContent(html_38900916742f41bb81cec2e8b46d8299);
+            
+
+            circle_marker_eaffab3c2fa84bfcb78d5fceec0dfe09.bindPopup(popup_41d70165f1ce4f678e1049282a730642);
+
+            
+        
+    
+            var circle_marker_b7c2af61b30944a0b1bdd4aea516ea5a = L.circleMarker(
+                [32.96401891904937,-117.19209455050189],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f6107f21b42b4c05945ceda2ed5b4d98 = L.popup({maxWidth: '300'});
+
+            
+                var html_0b671f9299be4ebab25f2e15c92cab03 = $('<div id="html_0b671f9299be4ebab25f2e15c92cab03" style="width: 100.0%; height: 100.0%;">Pacific Highlands Ranch, San Diego - Cluster 0</div>')[0];
+                popup_f6107f21b42b4c05945ceda2ed5b4d98.setContent(html_0b671f9299be4ebab25f2e15c92cab03);
+            
+
+            circle_marker_b7c2af61b30944a0b1bdd4aea516ea5a.bindPopup(popup_f6107f21b42b4c05945ceda2ed5b4d98);
+
+            
+        
+    
+            var circle_marker_cdc981346f974978bd02992c5d467623 = L.circleMarker(
+                [32.69190000000003,-117.11240999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b00ce4c273ff40588e21b3037a473932 = L.popup({maxWidth: '300'});
+
+            
+                var html_64f269825d2f4d0aa6a9f02cac92737d = $('<div id="html_64f269825d2f4d0aa6a9f02cac92737d" style="width: 100.0%; height: 100.0%;">Southcrest, San Diego - Cluster 0</div>')[0];
+                popup_b00ce4c273ff40588e21b3037a473932.setContent(html_64f269825d2f4d0aa6a9f02cac92737d);
+            
+
+            circle_marker_cdc981346f974978bd02992c5d467623.bindPopup(popup_b00ce4c273ff40588e21b3037a473932);
+
+            
+        
+    
+            var circle_marker_ac6b144978834afc9192e79826938e9d = L.circleMarker(
+                [32.56751000000003,-116.96242999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_2f6f13e0e160409e965a0f3b9d536dc0 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe7677561b8544c2bddcc35f360e8341 = $('<div id="html_fe7677561b8544c2bddcc35f360e8341" style="width: 100.0%; height: 100.0%;">Otay Mesa, San Diego - Cluster 0</div>')[0];
+                popup_2f6f13e0e160409e965a0f3b9d536dc0.setContent(html_fe7677561b8544c2bddcc35f360e8341);
+            
+
+            circle_marker_ac6b144978834afc9192e79826938e9d.bindPopup(popup_2f6f13e0e160409e965a0f3b9d536dc0);
+
+            
+        
+    
+            var circle_marker_34bb469534c44c89ac9887e10bbfb89b = L.circleMarker(
+                [32.57923000000005,-117.05804999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_cddad1580c3441949fb98356d18acd97 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee16af2631254fab9f5bd98852d70139 = $('<div id="html_ee16af2631254fab9f5bd98852d70139" style="width: 100.0%; height: 100.0%;">Otay Mesa West, San Diego - Cluster 0</div>')[0];
+                popup_cddad1580c3441949fb98356d18acd97.setContent(html_ee16af2631254fab9f5bd98852d70139);
+            
+
+            circle_marker_34bb469534c44c89ac9887e10bbfb89b.bindPopup(popup_cddad1580c3441949fb98356d18acd97);
+
+            
+        
+    
+            var circle_marker_2d907f5600e7491a873abe18a9af8836 = L.circleMarker(
+                [32.67887062059529,-117.10987682686597],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e2083bd3d25f4774a52b55cc44d6debb = L.popup({maxWidth: '300'});
+
+            
+                var html_063da58a395d49719feec812e7256ac2 = $('<div id="html_063da58a395d49719feec812e7256ac2" style="width: 100.0%; height: 100.0%;">Southeast San Diego - Cluster 0</div>')[0];
+                popup_e2083bd3d25f4774a52b55cc44d6debb.setContent(html_063da58a395d49719feec812e7256ac2);
+            
+
+            circle_marker_2d907f5600e7491a873abe18a9af8836.bindPopup(popup_e2083bd3d25f4774a52b55cc44d6debb);
+
+            
+        
+    
+            var circle_marker_f5dcd17f06e14546ba42705aaa245b12 = L.circleMarker(
+                [32.568613482701686,-117.01409990760223],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c2f69494c71247c1b2edaf115f4cc639 = L.popup({maxWidth: '300'});
+
+            
+                var html_36560f871aaf4b7e8e9b854cc40e4d84 = $('<div id="html_36560f871aaf4b7e8e9b854cc40e4d84" style="width: 100.0%; height: 100.0%;">Ocean View Hills, San Diego - Cluster 0</div>')[0];
+                popup_c2f69494c71247c1b2edaf115f4cc639.setContent(html_36560f871aaf4b7e8e9b854cc40e4d84);
+            
+
+            circle_marker_f5dcd17f06e14546ba42705aaa245b12.bindPopup(popup_c2f69494c71247c1b2edaf115f4cc639);
+
+            
+        
+    
+            var circle_marker_24a379be4d60489eaad972efac509f69 = L.circleMarker(
+                [32.72729000000004,-117.12960999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_bb1ab7b37bde4c25877609a79f62fdca = L.popup({maxWidth: '300'});
+
+            
+                var html_f98de2a5c27d46aca6748bd1f764e4ed = $('<div id="html_f98de2a5c27d46aca6748bd1f764e4ed" style="width: 100.0%; height: 100.0%;">South Park, San Diego - Cluster 0</div>')[0];
+                popup_bb1ab7b37bde4c25877609a79f62fdca.setContent(html_f98de2a5c27d46aca6748bd1f764e4ed);
+            
+
+            circle_marker_24a379be4d60489eaad972efac509f69.bindPopup(popup_bb1ab7b37bde4c25877609a79f62fdca);
+
+            
+        
+    
+            var circle_marker_c19c566f591e4568b292ab9b03bef847 = L.circleMarker(
+                [32.72033889603424,-117.22711178161445],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_4a0fd613dfc14cfa9de0769827dd6a3d = L.popup({maxWidth: '300'});
+
+            
+                var html_b49fd29c553d40a4a73254e390dcf116 = $('<div id="html_b49fd29c553d40a4a73254e390dcf116" style="width: 100.0%; height: 100.0%;">Shelter Island, San Diego - Cluster 0</div>')[0];
+                popup_4a0fd613dfc14cfa9de0769827dd6a3d.setContent(html_b49fd29c553d40a4a73254e390dcf116);
+            
+
+            circle_marker_c19c566f591e4568b292ab9b03bef847.bindPopup(popup_4a0fd613dfc14cfa9de0769827dd6a3d);
+
+            
+        
+    
+            var circle_marker_f6e6d7d17d124ff984aaf76710165b2e = L.circleMarker(
+                [32.784190000000024,-117.17134999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9d1a90f3dcd543ffa29df74250ccb7af = L.popup({maxWidth: '300'});
+
+            
+                var html_71186d41de1343a9a78370211190dd19 = $('<div id="html_71186d41de1343a9a78370211190dd19" style="width: 100.0%; height: 100.0%;">Linda Vista, San Diego - Cluster 0</div>')[0];
+                popup_9d1a90f3dcd543ffa29df74250ccb7af.setContent(html_71186d41de1343a9a78370211190dd19);
+            
+
+            circle_marker_f6e6d7d17d124ff984aaf76710165b2e.bindPopup(popup_9d1a90f3dcd543ffa29df74250ccb7af);
+
+            
+        
+    
+            var circle_marker_6d0d0f716320450fbe9594b8938d5db9 = L.circleMarker(
+                [32.718300000000056,-117.23369999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_3b2f298a1d7e4f4e849b34c9a5c3253a = L.popup({maxWidth: '300'});
+
+            
+                var html_18fa1a0e83f94451a05764144e0fd8bc = $('<div id="html_18fa1a0e83f94451a05764144e0fd8bc" style="width: 100.0%; height: 100.0%;">La Playa, San Diego - Cluster 0</div>')[0];
+                popup_3b2f298a1d7e4f4e849b34c9a5c3253a.setContent(html_18fa1a0e83f94451a05764144e0fd8bc);
+            
+
+            circle_marker_6d0d0f716320450fbe9594b8938d5db9.bindPopup(popup_3b2f298a1d7e4f4e849b34c9a5c3253a);
+
+            
+        
+    
+            var circle_marker_641f68194bc34893a9e0a676d0a91992 = L.circleMarker(
+                [32.948390000000074,-117.25991999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_0a0a12091eae4dc2b0c604fe604a9e3b = L.popup({maxWidth: '300'});
+
+            
+                var html_afddf8f7747b45b9ac20701ddb6ebc9d = $('<div id="html_afddf8f7747b45b9ac20701ddb6ebc9d" style="width: 100.0%; height: 100.0%;">Del Mar Heights, San Diego - Cluster 0</div>')[0];
+                popup_0a0a12091eae4dc2b0c604fe604a9e3b.setContent(html_afddf8f7747b45b9ac20701ddb6ebc9d);
+            
+
+            circle_marker_641f68194bc34893a9e0a676d0a91992.bindPopup(popup_0a0a12091eae4dc2b0c604fe604a9e3b);
+
+            
+        
+    
+            var circle_marker_20be6af37e514cf5be8c77b3a71984a3 = L.circleMarker(
+                [32.78762000000006,-117.06416999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_56ff01e44288450a829ba6d958d4ac2e = L.popup({maxWidth: '300'});
+
+            
+                var html_9a58053591604a488663e749cfdf592a = $('<div id="html_9a58053591604a488663e749cfdf592a" style="width: 100.0%; height: 100.0%;">Del Cerro, San Diego - Cluster 0</div>')[0];
+                popup_56ff01e44288450a829ba6d958d4ac2e.setContent(html_9a58053591604a488663e749cfdf592a);
+            
+
+            circle_marker_20be6af37e514cf5be8c77b3a71984a3.bindPopup(popup_56ff01e44288450a829ba6d958d4ac2e);
+
+            
+        
+    
+            var circle_marker_6594bfc574614b31b5f70e66e2f6778e = L.circleMarker(
+                [32.72316477734785,-117.15877165368126],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_d1161c94f6084c229049255e1e065a60 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1553ece15c44747a9379334e59f6496 = $('<div id="html_d1553ece15c44747a9379334e59f6496" style="width: 100.0%; height: 100.0%;">Cortez Hill, San Diego - Cluster 0</div>')[0];
+                popup_d1161c94f6084c229049255e1e065a60.setContent(html_d1553ece15c44747a9379334e59f6496);
+            
+
+            circle_marker_6594bfc574614b31b5f70e66e2f6778e.bindPopup(popup_d1161c94f6084c229049255e1e065a60);
+
+            
+        
+    
+            var circle_marker_6fe0228c43c74139ab23d81d313d8305 = L.circleMarker(
+                [32.71568000000008,-117.16170999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_ed20a2df04234ca98f14d8ba227983e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8304f13c4b6457aa5c9038806a9c788 = $('<div id="html_f8304f13c4b6457aa5c9038806a9c788" style="width: 100.0%; height: 100.0%;">Core, San Diego - Cluster 0</div>')[0];
+                popup_ed20a2df04234ca98f14d8ba227983e1.setContent(html_f8304f13c4b6457aa5c9038806a9c788);
+            
+
+            circle_marker_6fe0228c43c74139ab23d81d313d8305.bindPopup(popup_ed20a2df04234ca98f14d8ba227983e1);
+
+            
+        
+    
+            var circle_marker_7ff36648ca5d4e07a9ae2617f9649a47 = L.circleMarker(
+                [32.72231709163447,-117.16740310892881],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f900ccbab45d4c91b3671b79f4b1c71e = L.popup({maxWidth: '300'});
+
+            
+                var html_009467708c2049168afa1c7518fc5e74 = $('<div id="html_009467708c2049168afa1c7518fc5e74" style="width: 100.0%; height: 100.0%;">Columbia, San Diego - Cluster 0</div>')[0];
+                popup_f900ccbab45d4c91b3671b79f4b1c71e.setContent(html_009467708c2049168afa1c7518fc5e74);
+            
+
+            circle_marker_7ff36648ca5d4e07a9ae2617f9649a47.bindPopup(popup_f900ccbab45d4c91b3671b79f4b1c71e);
+
+            
+        
+    
+            var circle_marker_39423d51fe8543aea6ed24f55e603f8b = L.circleMarker(
+                [32.791557606429606,-117.06606530901291],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_32d813f38c7447d4808e3939dd8b33f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_df6e8ed654c942bbb6c50c92a99fcffc = $('<div id="html_df6e8ed654c942bbb6c50c92a99fcffc" style="width: 100.0%; height: 100.0%;">College Area, San Diego - Cluster 0</div>')[0];
+                popup_32d813f38c7447d4808e3939dd8b33f4.setContent(html_df6e8ed654c942bbb6c50c92a99fcffc);
+            
+
+            circle_marker_39423d51fe8543aea6ed24f55e603f8b.bindPopup(popup_32d813f38c7447d4808e3939dd8b33f4);
+
+            
+        
+    
+            var circle_marker_f76724473a0c402abf07dc1e5335c947 = L.circleMarker(
+                [32.69882000000007,-117.07815999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_1913df69ace24b8c8283c074bc48fc9e = L.popup({maxWidth: '300'});
+
+            
+                var html_dd5aaed775734de6aebc7969a2b844ae = $('<div id="html_dd5aaed775734de6aebc7969a2b844ae" style="width: 100.0%; height: 100.0%;">Valencia Park, San Diego - Cluster 0</div>')[0];
+                popup_1913df69ace24b8c8283c074bc48fc9e.setContent(html_dd5aaed775734de6aebc7969a2b844ae);
+            
+
+            circle_marker_f76724473a0c402abf07dc1e5335c947.bindPopup(popup_1913df69ace24b8c8283c074bc48fc9e);
+
+            
+        
+    
+            var circle_marker_17af9d530b464b218c4f67ef56fbd4ac = L.circleMarker(
+                [32.777372655863424,-117.14773216733681],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_1b9eb11c52464f61bc06a67ce4a307d3 = L.popup({maxWidth: '300'});
+
+            
+                var html_714c2078295941d297dcbca60f74d57d = $('<div id="html_714c2078295941d297dcbca60f74d57d" style="width: 100.0%; height: 100.0%;">Civita, San Diego - Cluster 0</div>')[0];
+                popup_1b9eb11c52464f61bc06a67ce4a307d3.setContent(html_714c2078295941d297dcbca60f74d57d);
+            
+
+            circle_marker_17af9d530b464b218c4f67ef56fbd4ac.bindPopup(popup_1b9eb11c52464f61bc06a67ce4a307d3);
+
+            
+        
+    
+            var circle_marker_9dd9772dcfca45898567fe808d06197a = L.circleMarker(
+                [32.749690000000044,-117.10714999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_50e542a9c7de418886e69952aec27aa5 = L.popup({maxWidth: '300'});
+
+            
+                var html_17cfd34ebdc041eca2c82f98b7cbfac8 = $('<div id="html_17cfd34ebdc041eca2c82f98b7cbfac8" style="width: 100.0%; height: 100.0%;">City Heights, San Diego - Cluster 0</div>')[0];
+                popup_50e542a9c7de418886e69952aec27aa5.setContent(html_17cfd34ebdc041eca2c82f98b7cbfac8);
+            
+
+            circle_marker_9dd9772dcfca45898567fe808d06197a.bindPopup(popup_50e542a9c7de418886e69952aec27aa5);
+
+            
+        
+    
+            var circle_marker_225561829d674d6fa0a758933ac6829e = L.circleMarker(
+                [32.715050000000076,-117.09302999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_a5e9f7671e224075b15d90b1a5ce08bf = L.popup({maxWidth: '300'});
+
+            
+                var html_5607fcc01d554d63ba22eefd9f65f21a = $('<div id="html_5607fcc01d554d63ba22eefd9f65f21a" style="width: 100.0%; height: 100.0%;">Chollas View, San Diego - Cluster 0</div>')[0];
+                popup_a5e9f7671e224075b15d90b1a5ce08bf.setContent(html_5607fcc01d554d63ba22eefd9f65f21a);
+            
+
+            circle_marker_225561829d674d6fa0a758933ac6829e.bindPopup(popup_a5e9f7671e224075b15d90b1a5ce08bf);
+
+            
+        
+    
+            var circle_marker_83497b0561e6498eabe6d3ce0bc75d5d = L.circleMarker(
+                [32.942570000000046,-117.18641999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9ba267ba526f410ebeedb7ced4036624 = L.popup({maxWidth: '300'});
+
+            
+                var html_cf8aa527a18941288f93cbb06baf6518 = $('<div id="html_cf8aa527a18941288f93cbb06baf6518" style="width: 100.0%; height: 100.0%;">Del Mar Mesa, San Diego - Cluster 0</div>')[0];
+                popup_9ba267ba526f410ebeedb7ced4036624.setContent(html_cf8aa527a18941288f93cbb06baf6518);
+            
+
+            circle_marker_83497b0561e6498eabe6d3ce0bc75d5d.bindPopup(popup_9ba267ba526f410ebeedb7ced4036624);
+
+            
+        
+    
+            var circle_marker_4c25d42778e549718cfea807395f4a7d = L.circleMarker(
+                [32.97883842044885,-117.08523692633462],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e3fbd46b3136439783b797ba079db784 = L.popup({maxWidth: '300'});
+
+            
+                var html_c4b04960766c4082acf7b044ccf6aaa5 = $('<div id="html_c4b04960766c4082acf7b044ccf6aaa5" style="width: 100.0%; height: 100.0%;">Carmel Mountain Ranch, San Diego - Cluster 0</div>')[0];
+                popup_e3fbd46b3136439783b797ba079db784.setContent(html_c4b04960766c4082acf7b044ccf6aaa5);
+            
+
+            circle_marker_4c25d42778e549718cfea807395f4a7d.bindPopup(popup_e3fbd46b3136439783b797ba079db784);
+
+            
+        
+    
+            var circle_marker_f4dc42d9212b46cca5e3a4e17913cc4c = L.circleMarker(
+                [32.73105000000004,-117.05379999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_3b84ab73f1984ff4a1ab6e252eaff58d = L.popup({maxWidth: '300'});
+
+            
+                var html_82fe25193578492eb79519bdbe3859a4 = $('<div id="html_82fe25193578492eb79519bdbe3859a4" style="width: 100.0%; height: 100.0%;">Broadway Heights, San Diego - Cluster 0</div>')[0];
+                popup_3b84ab73f1984ff4a1ab6e252eaff58d.setContent(html_82fe25193578492eb79519bdbe3859a4);
+            
+
+            circle_marker_f4dc42d9212b46cca5e3a4e17913cc4c.bindPopup(popup_3b84ab73f1984ff4a1ab6e252eaff58d);
+
+            
+        
+    
+            var circle_marker_3a0862686aca4f63aaef7eb5b5bb06a1 = L.circleMarker(
+                [32.99950000000007,-117.14514999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_86fd43da0c5b4c168ff7ee7dc8835cec = L.popup({maxWidth: '300'});
+
+            
+                var html_9cda15ffe31f49af9cc1af21441f7123 = $('<div id="html_9cda15ffe31f49af9cc1af21441f7123" style="width: 100.0%; height: 100.0%;">Black Mountain Ranch, San Diego - Cluster 0</div>')[0];
+                popup_86fd43da0c5b4c168ff7ee7dc8835cec.setContent(html_9cda15ffe31f49af9cc1af21441f7123);
+            
+
+            circle_marker_3a0862686aca4f63aaef7eb5b5bb06a1.bindPopup(popup_86fd43da0c5b4c168ff7ee7dc8835cec);
+
+            
+        
+    
+            var circle_marker_133025c0988841148b28f2098484fa89 = L.circleMarker(
+                [32.793150000000026,-117.15431999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_3038704a61ce4793afbd5a4a16936c5f = L.popup({maxWidth: '300'});
+
+            
+                var html_80523d5aeaf2460f883daa5d24fb954a = $('<div id="html_80523d5aeaf2460f883daa5d24fb954a" style="width: 100.0%; height: 100.0%;">Birdland, San Diego - Cluster 0</div>')[0];
+                popup_3038704a61ce4793afbd5a4a16936c5f.setContent(html_80523d5aeaf2460f883daa5d24fb954a);
+            
+
+            circle_marker_133025c0988841148b28f2098484fa89.bindPopup(popup_3038704a61ce4793afbd5a4a16936c5f);
+
+            
+        
+    
+            var circle_marker_98f858bf7c2e4e098d1412f5f4006157 = L.circleMarker(
+                [32.813120000000026,-117.26510999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_86c96d04a8aa4114b4fd02d789927ac5 = L.popup({maxWidth: '300'});
+
+            
+                var html_56e327932d004947ad290a6ea8e9aa41 = $('<div id="html_56e327932d004947ad290a6ea8e9aa41" style="width: 100.0%; height: 100.0%;">Bird Rock, San Diego - Cluster 0</div>')[0];
+                popup_86c96d04a8aa4114b4fd02d789927ac5.setContent(html_56e327932d004947ad290a6ea8e9aa41);
+            
+
+            circle_marker_98f858bf7c2e4e098d1412f5f4006157.bindPopup(popup_86c96d04a8aa4114b4fd02d789927ac5);
+
+            
+        
+    
+            var circle_marker_bcd3e13f52774c67aa59c045758c3e5c = L.circleMarker(
+                [32.69166000000007,-117.04083999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_8b556475bb56434ab2aa0ac8aa535376 = L.popup({maxWidth: '300'});
+
+            
+                var html_a999e2d0883f487a98dd9323418216b5 = $('<div id="html_a999e2d0883f487a98dd9323418216b5" style="width: 100.0%; height: 100.0%;">Bay Terraces, San Diego - Cluster 0</div>')[0];
+                popup_8b556475bb56434ab2aa0ac8aa535376.setContent(html_a999e2d0883f487a98dd9323418216b5);
+            
+
+            circle_marker_bcd3e13f52774c67aa59c045758c3e5c.bindPopup(popup_8b556475bb56434ab2aa0ac8aa535376);
+
+            
+        
+    
+            var circle_marker_8438326b1d924e138b807f68f0a5d7e6 = L.circleMarker(
+                [32.69467000000003,-117.13807999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c98da47bca0344579792f9b1a1aa91ab = L.popup({maxWidth: '300'});
+
+            
+                var html_61b6d73792f54fa0afca68a03ef4001c = $('<div id="html_61b6d73792f54fa0afca68a03ef4001c" style="width: 100.0%; height: 100.0%;">Barrio Logan, San Diego - Cluster 0</div>')[0];
+                popup_c98da47bca0344579792f9b1a1aa91ab.setContent(html_61b6d73792f54fa0afca68a03ef4001c);
+            
+
+            circle_marker_8438326b1d924e138b807f68f0a5d7e6.bindPopup(popup_c98da47bca0344579792f9b1a1aa91ab);
+
+            
+        
+    
+            var circle_marker_0756ec48c7c3469c970c865d2693b459 = L.circleMarker(
+                [32.72849000000008,-117.16141999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_775b306cd4a44295b0a1e6ca62b6b976 = L.popup({maxWidth: '300'});
+
+            
+                var html_3bee148ceeb045bab11d04eb9475072a = $('<div id="html_3bee148ceeb045bab11d04eb9475072a" style="width: 100.0%; height: 100.0%;">Bankers Hill, San Diego - Cluster 0</div>')[0];
+                popup_775b306cd4a44295b0a1e6ca62b6b976.setContent(html_3bee148ceeb045bab11d04eb9475072a);
+            
+
+            circle_marker_0756ec48c7c3469c970c865d2693b459.bindPopup(popup_775b306cd4a44295b0a1e6ca62b6b976);
+
+            
+        
+    
+            var circle_marker_a11a4ac29f534dcfbcfe5eb551f972ef = L.circleMarker(
+                [32.73284000000007,-117.10775999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9e80b593152b48b29179a32ba57395b9 = L.popup({maxWidth: '300'});
+
+            
+                var html_0d26848f490e476c901a99c114c8b3e3 = $('<div id="html_0d26848f490e476c901a99c114c8b3e3" style="width: 100.0%; height: 100.0%;">Azalea Park, San Diego - Cluster 0</div>')[0];
+                popup_9e80b593152b48b29179a32ba57395b9.setContent(html_0d26848f490e476c901a99c114c8b3e3);
+            
+
+            circle_marker_a11a4ac29f534dcfbcfe5eb551f972ef.bindPopup(popup_9e80b593152b48b29179a32ba57395b9);
+
+            
+        
+    
+            var circle_marker_f6d16134f81a46f294023548d5381209 = L.circleMarker(
+                [32.86162000000007,-117.23321999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c56f5636d1de47899797244d64dd0d0c = L.popup({maxWidth: '300'});
+
+            
+                var html_bff30316ce7149b982c3ebf90050cdd1 = $('<div id="html_bff30316ce7149b982c3ebf90050cdd1" style="width: 100.0%; height: 100.0%;">Village of La Jolla - Cluster 0</div>')[0];
+                popup_c56f5636d1de47899797244d64dd0d0c.setContent(html_bff30316ce7149b982c3ebf90050cdd1);
+            
+
+            circle_marker_f6d16134f81a46f294023548d5381209.bindPopup(popup_c56f5636d1de47899797244d64dd0d0c);
+
+            
+        
+    
+            var circle_marker_79ba38597a9e48e79f77556230d2e316 = L.circleMarker(
+                [32.693160000000034,-117.06778999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e44d358862f24461839ca809ebf2428a = L.popup({maxWidth: '300'});
+
+            
+                var html_e213513284d842e9bdcb9844f8387d52 = $('<div id="html_e213513284d842e9bdcb9844f8387d52" style="width: 100.0%; height: 100.0%;">Alta Vista, San Diego - Cluster 0</div>')[0];
+                popup_e44d358862f24461839ca809ebf2428a.setContent(html_e213513284d842e9bdcb9844f8387d52);
+            
+
+            circle_marker_79ba38597a9e48e79f77556230d2e316.bindPopup(popup_e44d358862f24461839ca809ebf2428a);
+
+            
+        
+    
+            var circle_marker_6e7d758080334a4f972c25323f0c93ec = L.circleMarker(
+                [32.73375974652356,-117.12734315331029],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f2885d73dff248f88ab4e3ecd67f8fe1 = L.popup({maxWidth: '300'});
+
+            
+                var html_31372f09b06442388af6b7c59bf5124e = $('<div id="html_31372f09b06442388af6b7c59bf5124e" style="width: 100.0%; height: 100.0%;">Burlingame, San Diego - Cluster 0</div>')[0];
+                popup_f2885d73dff248f88ab4e3ecd67f8fe1.setContent(html_31372f09b06442388af6b7c59bf5124e);
+            
+
+            circle_marker_6e7d758080334a4f972c25323f0c93ec.bindPopup(popup_f2885d73dff248f88ab4e3ecd67f8fe1);
+
+            
+        
+    
+            var circle_marker_783e9038089241e682f35be7a2fd219a = L.circleMarker(
+                [32.699380000000076,-117.09048999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_bba4561b6bd24fe8b566a15f6699fedd = L.popup({maxWidth: '300'});
+
+            
+                var html_85f97faa4ba24b418cdcaa9b9dfc4d67 = $('<div id="html_85f97faa4ba24b418cdcaa9b9dfc4d67" style="width: 100.0%; height: 100.0%;">Lincoln Park, San Diego - Cluster 0</div>')[0];
+                popup_bba4561b6bd24fe8b566a15f6699fedd.setContent(html_85f97faa4ba24b418cdcaa9b9dfc4d67);
+            
+
+            circle_marker_783e9038089241e682f35be7a2fd219a.bindPopup(popup_bba4561b6bd24fe8b566a15f6699fedd);
+
+            
+        
+    
+            var circle_marker_6f4658d17f4d458689095bb35a90d050 = L.circleMarker(
+                [32.71956000000006,-117.15539999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_270a4adc67714a39ad4cd6ee70db0951 = L.popup({maxWidth: '300'});
+
+            
+                var html_3b1df37007dd4789b8adc7956a5d7918 = $('<div id="html_3b1df37007dd4789b8adc7956a5d7918" style="width: 100.0%; height: 100.0%;">Downtown San Diego - Cluster 0</div>')[0];
+                popup_270a4adc67714a39ad4cd6ee70db0951.setContent(html_3b1df37007dd4789b8adc7956a5d7918);
+            
+
+            circle_marker_6f4658d17f4d458689095bb35a90d050.bindPopup(popup_270a4adc67714a39ad4cd6ee70db0951);
+
+            
+        
+    
+            var circle_marker_04a980e6704f4312bd34a0f2906ce9b4 = L.circleMarker(
+                [32.851440000000025,-117.21638999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_ca24bd57d6c24cbf8b4f08908c7e4117 = L.popup({maxWidth: '300'});
+
+            
+                var html_e90b3b0559d34ee9a87bb8ef51f26814 = $('<div id="html_e90b3b0559d34ee9a87bb8ef51f26814" style="width: 100.0%; height: 100.0%;">University City, San Diego - Cluster 0</div>')[0];
+                popup_ca24bd57d6c24cbf8b4f08908c7e4117.setContent(html_e90b3b0559d34ee9a87bb8ef51f26814);
+            
+
+            circle_marker_04a980e6704f4312bd34a0f2906ce9b4.bindPopup(popup_ca24bd57d6c24cbf8b4f08908c7e4117);
+
+            
+        
+    
+            var circle_marker_672d24bb2c184e3ebd8873a99c97f03c = L.circleMarker(
+                [32.86162000000007,-117.23321999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_70654eb3fb4b4e4b98be62ac765a78d8 = L.popup({maxWidth: '300'});
+
+            
+                var html_12c61e02d6204daeabd3c7d79ffc83f2 = $('<div id="html_12c61e02d6204daeabd3c7d79ffc83f2" style="width: 100.0%; height: 100.0%;">La Jolla Village, San Diego - Cluster 0</div>')[0];
+                popup_70654eb3fb4b4e4b98be62ac765a78d8.setContent(html_12c61e02d6204daeabd3c7d79ffc83f2);
+            
+
+            circle_marker_672d24bb2c184e3ebd8873a99c97f03c.bindPopup(popup_70654eb3fb4b4e4b98be62ac765a78d8);
+
+            
+        
+    
+            var circle_marker_3a8ad7e77f194348a06c12bf1eabc97d = L.circleMarker(
+                [32.834700000000055,-117.07992999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e699e5d39922481fbe8c0182ebe72f2c = L.popup({maxWidth: '300'});
+
+            
+                var html_c8126003006b4bcf8c4f490a6e208477 = $('<div id="html_c8126003006b4bcf8c4f490a6e208477" style="width: 100.0%; height: 100.0%;">Tierrasanta, San Diego - Cluster 0</div>')[0];
+                popup_e699e5d39922481fbe8c0182ebe72f2c.setContent(html_c8126003006b4bcf8c4f490a6e208477);
+            
+
+            circle_marker_3a8ad7e77f194348a06c12bf1eabc97d.bindPopup(popup_e699e5d39922481fbe8c0182ebe72f2c);
+
+            
+        
+    
+            var circle_marker_1088364f55ef4b25b67173faf776eeb5 = L.circleMarker(
+                [32.764940000000024,-117.10501],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_48bcec3c6c5345cc9ec750e8e0649627 = L.popup({maxWidth: '300'});
+
+            
+                var html_85a40351e01848018aebf366b6637fbb = $('<div id="html_85a40351e01848018aebf366b6637fbb" style="width: 100.0%; height: 100.0%;">Kensington, San Diego - Cluster 0</div>')[0];
+                popup_48bcec3c6c5345cc9ec750e8e0649627.setContent(html_85a40351e01848018aebf366b6637fbb);
+            
+
+            circle_marker_1088364f55ef4b25b67173faf776eeb5.bindPopup(popup_48bcec3c6c5345cc9ec750e8e0649627);
+
+            
+        
+    
+            var circle_marker_b2e2fc1533ea46e6b3b83a3431283bb8 = L.circleMarker(
+                [32.82181000000003,-117.14961999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_7209bff2f5af4dc78e704f9828300b8a = L.popup({maxWidth: '300'});
+
+            
+                var html_06845e40d1454bcfb041e39c8561afb9 = $('<div id="html_06845e40d1454bcfb041e39c8561afb9" style="width: 100.0%; height: 100.0%;">Kearny Mesa, San Diego - Cluster 0</div>')[0];
+                popup_7209bff2f5af4dc78e704f9828300b8a.setContent(html_06845e40d1454bcfb041e39c8561afb9);
+            
+
+            circle_marker_b2e2fc1533ea46e6b3b83a3431283bb8.bindPopup(popup_7209bff2f5af4dc78e704f9828300b8a);
+
+            
+        
+    
+            var circle_marker_223cbeb0ee814195bc5ad1ac075f3788 = L.circleMarker(
+                [32.712831121583214,-117.03653945899808],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f99bbd8969cb4d1cbc91800aa2dedb7c = L.popup({maxWidth: '300'});
+
+            
+                var html_d725ab1fb77643d8bbce320ab57c4893 = $('<div id="html_d725ab1fb77643d8bbce320ab57c4893" style="width: 100.0%; height: 100.0%;">Jamacha, San Diego - Cluster 0</div>')[0];
+                popup_f99bbd8969cb4d1cbc91800aa2dedb7c.setContent(html_d725ab1fb77643d8bbce320ab57c4893);
+            
+
+            circle_marker_223cbeb0ee814195bc5ad1ac075f3788.bindPopup(popup_f99bbd8969cb4d1cbc91800aa2dedb7c);
+
+            
+        
+    
+            var circle_marker_485b3276c2d849d88deedeea85b01cd9 = L.circleMarker(
+                [32.74031000000008,-117.09109999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_02ec9d4b827f44e09b04002a51e262d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_6841e871ce89472887ce6f482bd95a03 = $('<div id="html_6841e871ce89472887ce6f482bd95a03" style="width: 100.0%; height: 100.0%;">Islenair, San Diego - Cluster 0</div>')[0];
+                popup_02ec9d4b827f44e09b04002a51e262d1.setContent(html_6841e871ce89472887ce6f482bd95a03);
+            
+
+            circle_marker_485b3276c2d849d88deedeea85b01cd9.bindPopup(popup_02ec9d4b827f44e09b04002a51e262d1);
+
+            
+        
+    
+            var circle_marker_d424fb80ecf145e3895fc5a869c503bb = L.circleMarker(
+                [32.544800000000066,-117.07252999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_7bab33e5f6f7424b9932c28cfd77d85b = L.popup({maxWidth: '300'});
+
+            
+                var html_5be97d17a3cc47ab83a4c7aafade7387 = $('<div id="html_5be97d17a3cc47ab83a4c7aafade7387" style="width: 100.0%; height: 100.0%;">Tijuana River Valley, San Diego - Cluster 0</div>')[0];
+                popup_7bab33e5f6f7424b9932c28cfd77d85b.setContent(html_5be97d17a3cc47ab83a4c7aafade7387);
+            
+
+            circle_marker_d424fb80ecf145e3895fc5a869c503bb.bindPopup(popup_7bab33e5f6f7424b9932c28cfd77d85b);
+
+            
+        
+    
+            var circle_marker_4a16dcffc3ef47e48391f75b37d457da = L.circleMarker(
+                [32.72715000000005,-117.17259999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_20960becd425492c9266b6777b409453 = L.popup({maxWidth: '300'});
+
+            
+                var html_032edb5456804c01a140f64e872b4dd0 = $('<div id="html_032edb5456804c01a140f64e872b4dd0" style="width: 100.0%; height: 100.0%;">Harborview, San Diego - Cluster 0</div>')[0];
+                popup_20960becd425492c9266b6777b409453.setContent(html_032edb5456804c01a140f64e872b4dd0);
+            
+
+            circle_marker_4a16dcffc3ef47e48391f75b37d457da.bindPopup(popup_20960becd425492c9266b6777b409453);
+
+            
+        
+    
+            var circle_marker_b8d51392bb1741fcacbcb1734b09230e = L.circleMarker(
+                [32.72523551670311,-117.20170637937817],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_1715b89f8d2b4509b87eee53335ea6e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_7168e6ff337446708b420e8c3295c46b = $('<div id="html_7168e6ff337446708b420e8c3295c46b" style="width: 100.0%; height: 100.0%;">Harbor Island, San Diego - Cluster 0</div>')[0];
+                popup_1715b89f8d2b4509b87eee53335ea6e4.setContent(html_7168e6ff337446708b420e8c3295c46b);
+            
+
+            circle_marker_b8d51392bb1741fcacbcb1734b09230e.bindPopup(popup_1715b89f8d2b4509b87eee53335ea6e4);
+
+            
+        
+    
+            var circle_marker_09fc2b9e43274fb799775367afb247f6 = L.circleMarker(
+                [32.966860000000054,-117.15419999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_bd3afa4fbbd745be9123383f73896400 = L.popup({maxWidth: '300'});
+
+            
+                var html_8a7b1f64509b4a9788326afa306b733b = $('<div id="html_8a7b1f64509b4a9788326afa306b733b" style="width: 100.0%; height: 100.0%;">Torrey Highlands, San Diego - Cluster 0</div>')[0];
+                popup_bd3afa4fbbd745be9123383f73896400.setContent(html_8a7b1f64509b4a9788326afa306b733b);
+            
+
+            circle_marker_09fc2b9e43274fb799775367afb247f6.bindPopup(popup_bd3afa4fbbd745be9123383f73896400);
+
+            
+        
+    
+            var circle_marker_21703cb16aff4753b88f5ac0fe4a5c4d = L.circleMarker(
+                [32.759070000000065,-117.14815999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_4e543052cf2b42cc9dde3d47f97bbce5 = L.popup({maxWidth: '300'});
+
+            
+                var html_80d200950ac04cf192445965e1b577db = $('<div id="html_80d200950ac04cf192445965e1b577db" style="width: 100.0%; height: 100.0%;">University Heights, San Diego - Cluster 0</div>')[0];
+                popup_4e543052cf2b42cc9dde3d47f97bbce5.setContent(html_80d200950ac04cf192445965e1b577db);
+            
+
+            circle_marker_21703cb16aff4753b88f5ac0fe4a5c4d.bindPopup(popup_4e543052cf2b42cc9dde3d47f97bbce5);
+
+            
+        
+    
+            var circle_marker_8e9a8a31ebd44a95a163f61ba489ae74 = L.circleMarker(
+                [32.71126000000004,-117.13384999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_57b16038ef784309ab45554aee43bd21 = L.popup({maxWidth: '300'});
+
+            
+                var html_822ffc8c88e948bea60766bb93f2217e = $('<div id="html_822ffc8c88e948bea60766bb93f2217e" style="width: 100.0%; height: 100.0%;">Grant Hill, San Diego - Cluster 0</div>')[0];
+                popup_57b16038ef784309ab45554aee43bd21.setContent(html_822ffc8c88e948bea60766bb93f2217e);
+            
+
+            circle_marker_8e9a8a31ebd44a95a163f61ba489ae74.bindPopup(popup_57b16038ef784309ab45554aee43bd21);
+
+            
+        
+    
+            var circle_marker_b586337eb04c45edb8fc1f73321d4a14 = L.circleMarker(
+                [32.72525795875752,-117.10844168679806],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b0d52baad1bf41d9840af2b7d3909d39 = L.popup({maxWidth: '300'});
+
+            
+                var html_b18284d6d529436dbba669037f233c45 = $('<div id="html_b18284d6d529436dbba669037f233c45" style="width: 100.0%; height: 100.0%;">Gateway, San Diego - Cluster 0</div>')[0];
+                popup_b0d52baad1bf41d9840af2b7d3909d39.setContent(html_b18284d6d529436dbba669037f233c45);
+            
+
+            circle_marker_b586337eb04c45edb8fc1f73321d4a14.bindPopup(popup_b0d52baad1bf41d9840af2b7d3909d39);
+
+            
+        
+    
+            var circle_marker_4e8d8b46898c4ed59e6cb8040604f264 = L.circleMarker(
+                [32.710590000000025,-117.16073999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_63ae227f1e8c459487be187895a92e61 = L.popup({maxWidth: '300'});
+
+            
+                var html_958f8e722db548f3961ecc846cffb121 = $('<div id="html_958f8e722db548f3961ecc846cffb121" style="width: 100.0%; height: 100.0%;">Gaslamp Quarter, San Diego - Cluster 0</div>')[0];
+                popup_63ae227f1e8c459487be187895a92e61.setContent(html_958f8e722db548f3961ecc846cffb121);
+            
+
+            circle_marker_4e8d8b46898c4ed59e6cb8040604f264.bindPopup(popup_63ae227f1e8c459487be187895a92e61);
+
+            
+        
+    
+            var circle_marker_5cb9f726c80e4d12a1d56efd74942d15 = L.circleMarker(
+                [32.964510807248246,-117.23247520341013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_31594ea933d947c59904997c9d7444cc = L.popup({maxWidth: '300'});
+
+            
+                var html_c7203da9e9d5487d869f982e7fb74ee0 = $('<div id="html_c7203da9e9d5487d869f982e7fb74ee0" style="width: 100.0%; height: 100.0%;">Torrey Hills, San Diego - Cluster 0</div>')[0];
+                popup_31594ea933d947c59904997c9d7444cc.setContent(html_c7203da9e9d5487d869f982e7fb74ee0);
+            
+
+            circle_marker_5cb9f726c80e4d12a1d56efd74942d15.bindPopup(popup_31594ea933d947c59904997c9d7444cc);
+
+            
+        
+    
+            var circle_marker_70594a57c0554d399177043970d2198f = L.circleMarker(
+                [32.733370000000036,-117.10108999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_287e48d53642487892c72125b4e57602 = L.popup({maxWidth: '300'});
+
+            
+                var html_851fdfdee18a48919d4e066da85a3647 = $('<div id="html_851fdfdee18a48919d4e066da85a3647" style="width: 100.0%; height: 100.0%;">Fairmount Park, San Diego - Cluster 0</div>')[0];
+                popup_287e48d53642487892c72125b4e57602.setContent(html_851fdfdee18a48919d4e066da85a3647);
+            
+
+            circle_marker_70594a57c0554d399177043970d2198f.bindPopup(popup_287e48d53642487892c72125b4e57602);
+
+            
+        
+    
+            var circle_marker_d3723f0836bd47a68c60246a162806e2 = L.circleMarker(
+                [32.720470000000034,-117.05887999999999],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f9e34fdd84b0482288d21869e83d50df = L.popup({maxWidth: '300'});
+
+            
+                var html_1a7e016e5e33402baf302c1c84d9a7ee = $('<div id="html_1a7e016e5e33402baf302c1c84d9a7ee" style="width: 100.0%; height: 100.0%;">Encanto, San Diego - Cluster 0</div>')[0];
+                popup_f9e34fdd84b0482288d21869e83d50df.setContent(html_1a7e016e5e33402baf302c1c84d9a7ee);
+            
+
+            circle_marker_d3723f0836bd47a68c60246a162806e2.bindPopup(popup_f9e34fdd84b0482288d21869e83d50df);
+
+            
+        
+    
+            var circle_marker_a756cc51115745569cfc9d22f1c9a466 = L.circleMarker(
+                [32.71551000000005,-117.07630999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b9b63581b2824d35a51dd6c2ee41b613 = L.popup({maxWidth: '300'});
+
+            
+                var html_0625eec46b6e4cdd8048fc9eb3109f9b = $('<div id="html_0625eec46b6e4cdd8048fc9eb3109f9b" style="width: 100.0%; height: 100.0%;">Emerald Hills, San Diego - Cluster 0</div>')[0];
+                popup_b9b63581b2824d35a51dd6c2ee41b613.setContent(html_0625eec46b6e4cdd8048fc9eb3109f9b);
+            
+
+            circle_marker_a756cc51115745569cfc9d22f1c9a466.bindPopup(popup_b9b63581b2824d35a51dd6c2ee41b613);
+
+            
+        
+    
+            var circle_marker_04ed35170b5546379b6413ccecfc2198 = L.circleMarker(
+                [32.856217053881586,-117.245580120597],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9a3da6ebbf1e4a68bb85e5c83b6ac7f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_ee7a9d4286c74ed6a656be72cdbd69ba = $('<div id="html_ee7a9d4286c74ed6a656be72cdbd69ba" style="width: 100.0%; height: 100.0%;">Torrey Pines, San Diego - Cluster 0</div>')[0];
+                popup_9a3da6ebbf1e4a68bb85e5c83b6ac7f4.setContent(html_ee7a9d4286c74ed6a656be72cdbd69ba);
+            
+
+            circle_marker_04ed35170b5546379b6413ccecfc2198.bindPopup(popup_9a3da6ebbf1e4a68bb85e5c83b6ac7f4);
+
+            
+        
+    
+            var circle_marker_45d03824fb9a44f2be2b7d38200cc3c4 = L.circleMarker(
+                [32.785445525148994,-117.07970600783452],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_412fddc065e541e39d58282e82674450 = L.popup({maxWidth: '300'});
+
+            
+                var html_555962c309614ee3be1b52465f5464e4 = $('<div id="html_555962c309614ee3be1b52465f5464e4" style="width: 100.0%; height: 100.0%;">Tri-City, San Diego County, California - Cluster 0</div>')[0];
+                popup_412fddc065e541e39d58282e82674450.setContent(html_555962c309614ee3be1b52465f5464e4);
+            
+
+            circle_marker_45d03824fb9a44f2be2b7d38200cc3c4.bindPopup(popup_412fddc065e541e39d58282e82674450);
+
+            
+        
+    
+            var circle_marker_cd1bb3739b0142978b180c31d9890da7 = L.circleMarker(
+                [32.58131000000003,-117.09698999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c7764300ee494b69ac7a0a86fb833949 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1191302504c47439f2557d1438d1919 = $('<div id="html_a1191302504c47439f2557d1438d1919" style="width: 100.0%; height: 100.0%;">Egger Highlands, San Diego - Cluster 0</div>')[0];
+                popup_c7764300ee494b69ac7a0a86fb833949.setContent(html_a1191302504c47439f2557d1438d1919);
+            
+
+            circle_marker_cd1bb3739b0142978b180c31d9890da7.bindPopup(popup_c7764300ee494b69ac7a0a86fb833949);
+
+            
+        
+    
+            var circle_marker_8e07565f91524e2789cfe0d27556abf5 = L.circleMarker(
+                [32.71153000000004,-117.14968999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_07cc60f5f8514648bbd56d5efcf34252 = L.popup({maxWidth: '300'});
+
+            
+                var html_674eecf90391464e9293f66c860f1dc6 = $('<div id="html_674eecf90391464e9293f66c860f1dc6" style="width: 100.0%; height: 100.0%;">East Village, San Diego - Cluster 0</div>')[0];
+                popup_07cc60f5f8514648bbd56d5efcf34252.setContent(html_674eecf90391464e9293f66c860f1dc6);
+            
+
+            circle_marker_8e07565f91524e2789cfe0d27556abf5.bindPopup(popup_07cc60f5f8514648bbd56d5efcf34252);
+
+            
+        
+    
+            var circle_marker_06b8e15c97a54e12a69e30ef13af2cf8 = L.circleMarker(
+                [32.71586000000008,-117.13190999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c52e328d16f84f6aaffa45150175406d = L.popup({maxWidth: '300'});
+
+            
+                var html_4571255b696c4c6daf9e376418e1f805 = $('<div id="html_4571255b696c4c6daf9e376418e1f805" style="width: 100.0%; height: 100.0%;">Golden Hill, San Diego - Cluster 0</div>')[0];
+                popup_c52e328d16f84f6aaffa45150175406d.setContent(html_4571255b696c4c6daf9e376418e1f805);
+            
+
+            circle_marker_06b8e15c97a54e12a69e30ef13af2cf8.bindPopup(popup_c52e328d16f84f6aaffa45150175406d);
+
+            
+        
+    
+            var circle_marker_4322c3f1306447d2a843ecb3f5302825 = L.circleMarker(
+                [32.71159000000006,-117.14163999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#ff0000",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#ff0000",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_6e9f40be5dc64a589c90de01a0af7d8c = L.popup({maxWidth: '300'});
+
+            
+                var html_1aff349144f342858581a84e472a09e7 = $('<div id="html_1aff349144f342858581a84e472a09e7" style="width: 100.0%; height: 100.0%;">Sherman Heights, San Diego - Cluster 0</div>')[0];
+                popup_6e9f40be5dc64a589c90de01a0af7d8c.setContent(html_1aff349144f342858581a84e472a09e7);
+            
+
+            circle_marker_4322c3f1306447d2a843ecb3f5302825.bindPopup(popup_6e9f40be5dc64a589c90de01a0af7d8c);
+
+            
+        
+    
+            var circle_marker_e463a2c0f0fc4504b5d50d79e977e30c = L.circleMarker(
+                [32.891980000000046,-117.19537999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_50fb27d2ef76433ea7d63a83856dc0e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_2976e29bc1f74efbb178b3f289dfd579 = $('<div id="html_2976e29bc1f74efbb178b3f289dfd579" style="width: 100.0%; height: 100.0%;">Sorrento Valley, San Diego - Cluster 1</div>')[0];
+                popup_50fb27d2ef76433ea7d63a83856dc0e4.setContent(html_2976e29bc1f74efbb178b3f289dfd579);
+            
+
+            circle_marker_e463a2c0f0fc4504b5d50d79e977e30c.bindPopup(popup_50fb27d2ef76433ea7d63a83856dc0e4);
+
+            
+        
+    
+            var circle_marker_cb7f279298ba41c7ba111b77e5e2b98e = L.circleMarker(
+                [32.893610000000024,-117.1334],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#8000ff",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#8000ff",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_313f5bb791bc474d8713a15912e810eb = L.popup({maxWidth: '300'});
+
+            
+                var html_c36c9daa4da34079a9e4f8600c3cbf92 = $('<div id="html_c36c9daa4da34079a9e4f8600c3cbf92" style="width: 100.0%; height: 100.0%;">Miramar, San Diego - Cluster 1</div>')[0];
+                popup_313f5bb791bc474d8713a15912e810eb.setContent(html_c36c9daa4da34079a9e4f8600c3cbf92);
+            
+
+            circle_marker_cb7f279298ba41c7ba111b77e5e2b98e.bindPopup(popup_313f5bb791bc474d8713a15912e810eb);
+
+            
+        
+    
+            var circle_marker_ebd73bdb7156498790233f525a9225ac = L.circleMarker(
+                [32.727954767899284,-117.25179110808921],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_62975971180f453e8620131dedf59c68 = L.popup({maxWidth: '300'});
+
+            
+                var html_fe03a12a241f44d699d1d84160a2ddd1 = $('<div id="html_fe03a12a241f44d699d1d84160a2ddd1" style="width: 100.0%; height: 100.0%;">Sorrento Mesa, San Diego - Cluster 2</div>')[0];
+                popup_62975971180f453e8620131dedf59c68.setContent(html_fe03a12a241f44d699d1d84160a2ddd1);
+            
+
+            circle_marker_ebd73bdb7156498790233f525a9225ac.bindPopup(popup_62975971180f453e8620131dedf59c68);
+
+            
+        
+    
+            var circle_marker_a34e6dba1f0740839c26c0915673f73b = L.circleMarker(
+                [32.77722977470506,-117.05725645116517],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_4fccd4eacca84e80a35171f6b3e7fbed = L.popup({maxWidth: '300'});
+
+            
+                var html_3eba163824d04629adaf4ab508d4a301 = $('<div id="html_3eba163824d04629adaf4ab508d4a301" style="width: 100.0%; height: 100.0%;">Alvarado Estates, San Diego - Cluster 2</div>')[0];
+                popup_4fccd4eacca84e80a35171f6b3e7fbed.setContent(html_3eba163824d04629adaf4ab508d4a301);
+            
+
+            circle_marker_a34e6dba1f0740839c26c0915673f73b.bindPopup(popup_4fccd4eacca84e80a35171f6b3e7fbed);
+
+            
+        
+    
+            var circle_marker_f118f1702a864df79356b4f3498b93f4 = L.circleMarker(
+                [32.83457000000004,-117.19462999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_2e43e695059640039eb35c12f8457caa = L.popup({maxWidth: '300'});
+
+            
+                var html_b7022b53d5a9495c8e452e7fb0baa6fa = $('<div id="html_b7022b53d5a9495c8e452e7fb0baa6fa" style="width: 100.0%; height: 100.0%;">Clairemont, San Diego - Cluster 2</div>')[0];
+                popup_2e43e695059640039eb35c12f8457caa.setContent(html_b7022b53d5a9495c8e452e7fb0baa6fa);
+            
+
+            circle_marker_f118f1702a864df79356b4f3498b93f4.bindPopup(popup_2e43e695059640039eb35c12f8457caa);
+
+            
+        
+    
+            var circle_marker_267099cd2e3c4b558f0ecd819b14667c = L.circleMarker(
+                [32.753660000000025,-117.19447999999994],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_47510c4f88e24f90b436eeb255de4f0f = L.popup({maxWidth: '300'});
+
+            
+                var html_81c9571c3fb7467d8cbf56013180dd0a = $('<div id="html_81c9571c3fb7467d8cbf56013180dd0a" style="width: 100.0%; height: 100.0%;">Dryden Historic District (San Diego) - Cluster 2</div>')[0];
+                popup_47510c4f88e24f90b436eeb255de4f0f.setContent(html_81c9571c3fb7467d8cbf56013180dd0a);
+            
+
+            circle_marker_267099cd2e3c4b558f0ecd819b14667c.bindPopup(popup_47510c4f88e24f90b436eeb255de4f0f);
+
+            
+        
+    
+            var circle_marker_1a58c4c1f93a420aa9699907e59798f1 = L.circleMarker(
+                [32.742983549521625,-117.22094533588752],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_160379245d7747efbc4efd110712f9da = L.popup({maxWidth: '300'});
+
+            
+                var html_17446630ab44461d8e623393dae54924 = $('<div id="html_17446630ab44461d8e623393dae54924" style="width: 100.0%; height: 100.0%;">East Elliott, San Diego - Cluster 2</div>')[0];
+                popup_160379245d7747efbc4efd110712f9da.setContent(html_17446630ab44461d8e623393dae54924);
+            
+
+            circle_marker_1a58c4c1f93a420aa9699907e59798f1.bindPopup(popup_160379245d7747efbc4efd110712f9da);
+
+            
+        
+    
+            var circle_marker_c85c6f777efb45c68bbf00492c8842a6 = L.circleMarker(
+                [32.75467000000003,-117.07290999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f3c78b6428cc4f08ae94ed9778fa89bf = L.popup({maxWidth: '300'});
+
+            
+                var html_0b8d7e67eaa34e4388d1b6d29ed16f82 = $('<div id="html_0b8d7e67eaa34e4388d1b6d29ed16f82" style="width: 100.0%; height: 100.0%;">El Cerrito, San Diego - Cluster 2</div>')[0];
+                popup_f3c78b6428cc4f08ae94ed9778fa89bf.setContent(html_0b8d7e67eaa34e4388d1b6d29ed16f82);
+            
+
+            circle_marker_c85c6f777efb45c68bbf00492c8842a6.bindPopup(popup_f3c78b6428cc4f08ae94ed9778fa89bf);
+
+            
+        
+    
+            var circle_marker_16f99df1faa942168ab5073a3348086c = L.circleMarker(
+                [32.79574000000002,-117.25350999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_d279b062c78b446e93e74b05aad9d715 = L.popup({maxWidth: '300'});
+
+            
+                var html_2749af05b07e43dda407d340ed343326 = $('<div id="html_2749af05b07e43dda407d340ed343326" style="width: 100.0%; height: 100.0%;">El Pueblo Ribera - Cluster 2</div>')[0];
+                popup_d279b062c78b446e93e74b05aad9d715.setContent(html_2749af05b07e43dda407d340ed343326);
+            
+
+            circle_marker_16f99df1faa942168ab5073a3348086c.bindPopup(popup_d279b062c78b446e93e74b05aad9d715);
+
+            
+        
+    
+            var circle_marker_897c6aabf0be481985d63c80b2df6a90 = L.circleMarker(
+                [32.83756759072087,-117.26238839101372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_0cfadb07b6984a42bc5720edda763c76 = L.popup({maxWidth: '300'});
+
+            
+                var html_69dc61b9e7ca4ebbb57aae6ff90bbba7 = $('<div id="html_69dc61b9e7ca4ebbb57aae6ff90bbba7" style="width: 100.0%; height: 100.0%;">Fairway Village - Cluster 2</div>')[0];
+                popup_0cfadb07b6984a42bc5720edda763c76.setContent(html_69dc61b9e7ca4ebbb57aae6ff90bbba7);
+            
+
+            circle_marker_897c6aabf0be481985d63c80b2df6a90.bindPopup(popup_0cfadb07b6984a42bc5720edda763c76);
+
+            
+        
+    
+            var circle_marker_7ebbfbcb669c4d1b998591c107152205 = L.circleMarker(
+                [32.78747000000004,-117.09772999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_d9bbcd71653845edbb651b88d9eb2ed2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2e6da1b243134e0f88c95e9a024d23b1 = $('<div id="html_2e6da1b243134e0f88c95e9a024d23b1" style="width: 100.0%; height: 100.0%;">Grantville, San Diego - Cluster 2</div>')[0];
+                popup_d9bbcd71653845edbb651b88d9eb2ed2.setContent(html_2e6da1b243134e0f88c95e9a024d23b1);
+            
+
+            circle_marker_7ebbfbcb669c4d1b998591c107152205.bindPopup(popup_d9bbcd71653845edbb651b88d9eb2ed2);
+
+            
+        
+    
+            var circle_marker_a19c1ef6f12a4a568338a5f9a4b98574 = L.circleMarker(
+                [32.749960000000044,-117.16510999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e72c8952b4a64dc8a72befb58f177bdf = L.popup({maxWidth: '300'});
+
+            
+                var html_5dd00c1bfe354767965fd2b2a91a04db = $('<div id="html_5dd00c1bfe354767965fd2b2a91a04db" style="width: 100.0%; height: 100.0%;">Hillcrest, San Diego - Cluster 2</div>')[0];
+                popup_e72c8952b4a64dc8a72befb58f177bdf.setContent(html_5dd00c1bfe354767965fd2b2a91a04db);
+            
+
+            circle_marker_a19c1ef6f12a4a568338a5f9a4b98574.bindPopup(popup_e72c8952b4a64dc8a72befb58f177bdf);
+
+            
+        
+    
+            var circle_marker_595a5e64054e4edcb9cfd927f6cd277e = L.circleMarker(
+                [32.76111000000003,-117.05928999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_d42e4b72df134aedb87187005315dd07 = L.popup({maxWidth: '300'});
+
+            
+                var html_d4c5ee0891e54d41b89bb232705c2a3d = $('<div id="html_d4c5ee0891e54d41b89bb232705c2a3d" style="width: 100.0%; height: 100.0%;">Rolando, San Diego - Cluster 2</div>')[0];
+                popup_d42e4b72df134aedb87187005315dd07.setContent(html_d4c5ee0891e54d41b89bb232705c2a3d);
+            
+
+            circle_marker_595a5e64054e4edcb9cfd927f6cd277e.bindPopup(popup_d42e4b72df134aedb87187005315dd07);
+
+            
+        
+    
+            var circle_marker_7241d0776a9d45de83260cacaad5af93 = L.circleMarker(
+                [32.840850000000046,-117.25779999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_528b9ffc0c23457fa6b97a65cec7aabd = L.popup({maxWidth: '300'});
+
+            
+                var html_81d5687734254906a941ca235f47b36f = $('<div id="html_81d5687734254906a941ca235f47b36f" style="width: 100.0%; height: 100.0%;">La Jolla - Cluster 2</div>')[0];
+                popup_528b9ffc0c23457fa6b97a65cec7aabd.setContent(html_81d5687734254906a941ca235f47b36f);
+            
+
+            circle_marker_7241d0776a9d45de83260cacaad5af93.bindPopup(popup_528b9ffc0c23457fa6b97a65cec7aabd);
+
+            
+        
+    
+            var circle_marker_d84e804dd1974bc8ab2c09d515c35bf3 = L.circleMarker(
+                [32.779815069254774,-117.09752479290009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_b0aa05a0b2c64a328d7d41c3a3c67c53 = L.popup({maxWidth: '300'});
+
+            
+                var html_5078adab952d4725adc09bcae6549aeb = $('<div id="html_5078adab952d4725adc09bcae6549aeb" style="width: 100.0%; height: 100.0%;">Mission Valley, San Diego - Cluster 2</div>')[0];
+                popup_b0aa05a0b2c64a328d7d41c3a3c67c53.setContent(html_5078adab952d4725adc09bcae6549aeb);
+            
+
+            circle_marker_d84e804dd1974bc8ab2c09d515c35bf3.bindPopup(popup_b0aa05a0b2c64a328d7d41c3a3c67c53);
+
+            
+        
+    
+            var circle_marker_0342f83439fe4e9fa28a4f85303be512 = L.circleMarker(
+                [32.728500000000054,-117.25001999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_c0cff96fe95e438ca3730f8cb3940b45 = L.popup({maxWidth: '300'});
+
+            
+                var html_955678fa57c441f5a74fa13ec3172128 = $('<div id="html_955678fa57c441f5a74fa13ec3172128" style="width: 100.0%; height: 100.0%;">Sunset Cliffs, San Diego - Cluster 2</div>')[0];
+                popup_c0cff96fe95e438ca3730f8cb3940b45.setContent(html_955678fa57c441f5a74fa13ec3172128);
+            
+
+            circle_marker_0342f83439fe4e9fa28a4f85303be512.bindPopup(popup_c0cff96fe95e438ca3730f8cb3940b45);
+
+            
+        
+    
+            var circle_marker_2f63331ee12d4defbbe87fdd077d6236 = L.circleMarker(
+                [32.75712699798757,-117.21974943699009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_e8bc9f3554574f908dcfd31e5abffb10 = L.popup({maxWidth: '300'});
+
+            
+                var html_bd9b2544585346fda6cf026065dace9b = $('<div id="html_bd9b2544585346fda6cf026065dace9b" style="width: 100.0%; height: 100.0%;">Ocean Beach Antique District - Cluster 2</div>')[0];
+                popup_e8bc9f3554574f908dcfd31e5abffb10.setContent(html_bd9b2544585346fda6cf026065dace9b);
+            
+
+            circle_marker_2f63331ee12d4defbbe87fdd077d6236.bindPopup(popup_e8bc9f3554574f908dcfd31e5abffb10);
+
+            
+        
+    
+            var circle_marker_2cbc504ab462429c9f97e3176405502e = L.circleMarker(
+                [32.74464000000006,-117.24769999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_972e671c9d814f928e30b73c83c7e14a = L.popup({maxWidth: '300'});
+
+            
+                var html_69d701ab034b4d23a5b7fc7cd44e967a = $('<div id="html_69d701ab034b4d23a5b7fc7cd44e967a" style="width: 100.0%; height: 100.0%;">Ocean Beach, San Diego - Cluster 2</div>')[0];
+                popup_972e671c9d814f928e30b73c83c7e14a.setContent(html_69d701ab034b4d23a5b7fc7cd44e967a);
+            
+
+            circle_marker_2cbc504ab462429c9f97e3176405502e.bindPopup(popup_972e671c9d814f928e30b73c83c7e14a);
+
+            
+        
+    
+            var circle_marker_294192352dcd4be58973b7cd84e4fd49 = L.circleMarker(
+                [32.75810000000007,-117.19746999999995],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_a87a7c35c4b34c39a08bd9ec19f29c43 = L.popup({maxWidth: '300'});
+
+            
+                var html_b65b9a4a61cb4b02bad6a7f939cc187e = $('<div id="html_b65b9a4a61cb4b02bad6a7f939cc187e" style="width: 100.0%; height: 100.0%;">Old Town, San Diego - Cluster 2</div>')[0];
+                popup_a87a7c35c4b34c39a08bd9ec19f29c43.setContent(html_b65b9a4a61cb4b02bad6a7f939cc187e);
+            
+
+            circle_marker_294192352dcd4be58973b7cd84e4fd49.bindPopup(popup_a87a7c35c4b34c39a08bd9ec19f29c43);
+
+            
+        
+    
+            var circle_marker_fb66fb35ebe1470ba07d808aa42f8527 = L.circleMarker(
+                [32.801420000000064,-117.24136999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_0ad8e1244d324e9b8d1e8e504c3966f9 = L.popup({maxWidth: '300'});
+
+            
+                var html_3cf17d1fb5aa4025a969bfba80807b08 = $('<div id="html_3cf17d1fb5aa4025a969bfba80807b08" style="width: 100.0%; height: 100.0%;">Pacific Beach, San Diego - Cluster 2</div>')[0];
+                popup_0ad8e1244d324e9b8d1e8e504c3966f9.setContent(html_3cf17d1fb5aa4025a969bfba80807b08);
+            
+
+            circle_marker_fb66fb35ebe1470ba07d808aa42f8527.bindPopup(popup_0ad8e1244d324e9b8d1e8e504c3966f9);
+
+            
+        
+    
+            var circle_marker_fe60c5001aca40b999ed8f2798fc1af3 = L.circleMarker(
+                [32.733061769628,-117.24952917189306],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_9debf20e3d744de38851086daac62a72 = L.popup({maxWidth: '300'});
+
+            
+                var html_76497d9779e940f1b72bb5fd8828a89a = $('<div id="html_76497d9779e940f1b72bb5fd8828a89a" style="width: 100.0%; height: 100.0%;">Point Loma Heights, San Diego - Cluster 2</div>')[0];
+                popup_9debf20e3d744de38851086daac62a72.setContent(html_76497d9779e940f1b72bb5fd8828a89a);
+            
+
+            circle_marker_fe60c5001aca40b999ed8f2798fc1af3.bindPopup(popup_9debf20e3d744de38851086daac62a72);
+
+            
+        
+    
+            var circle_marker_a16082f189014094a1f87331704da73f = L.circleMarker(
+                [33.024470000000065,-117.08504999999997],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f3fe0f778a004dafbf5f998326209eae = L.popup({maxWidth: '300'});
+
+            
+                var html_c1aab9e635814e0f8bac9ca3da003d11 = $('<div id="html_c1aab9e635814e0f8bac9ca3da003d11" style="width: 100.0%; height: 100.0%;">Rancho Bernardo, San Diego - Cluster 2</div>')[0];
+                popup_f3fe0f778a004dafbf5f998326209eae.setContent(html_c1aab9e635814e0f8bac9ca3da003d11);
+            
+
+            circle_marker_a16082f189014094a1f87331704da73f.bindPopup(popup_f3fe0f778a004dafbf5f998326209eae);
+
+            
+        
+    
+            var circle_marker_5884e670668b4ed6a3f6eed220136c79 = L.circleMarker(
+                [32.76342000000005,-117.06023999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_7dc8fcf243a24df09cab903bfd790044 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ebbc2dd1f0b4cffb8a2ff747b93c3be = $('<div id="html_5ebbc2dd1f0b4cffb8a2ff747b93c3be" style="width: 100.0%; height: 100.0%;">Rolando Park, San Diego - Cluster 2</div>')[0];
+                popup_7dc8fcf243a24df09cab903bfd790044.setContent(html_5ebbc2dd1f0b4cffb8a2ff747b93c3be);
+            
+
+            circle_marker_5884e670668b4ed6a3f6eed220136c79.bindPopup(popup_7dc8fcf243a24df09cab903bfd790044);
+
+            
+        
+    
+            var circle_marker_269265b33c634455a1982e4212205c43 = L.circleMarker(
+                [32.74020000000007,-117.23865999999998],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_f3bec49c280146a68052e6b74cae4c3c = L.popup({maxWidth: '300'});
+
+            
+                var html_052a42323ef64cf0a85fa57eb8a12749 = $('<div id="html_052a42323ef64cf0a85fa57eb8a12749" style="width: 100.0%; height: 100.0%;">Loma Portal, San Diego - Cluster 2</div>')[0];
+                popup_f3bec49c280146a68052e6b74cae4c3c.setContent(html_052a42323ef64cf0a85fa57eb8a12749);
+            
+
+            circle_marker_269265b33c634455a1982e4212205c43.bindPopup(popup_f3bec49c280146a68052e6b74cae4c3c);
+
+            
+        
+    
+            var circle_marker_a63783c293994925adde7e78d59e2d2e = L.circleMarker(
+                [32.79633000000007,-117.09450999999996],
+                {
+  "bubblingMouseEvents": true,
+  "color": "#80ffb4",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "#80ffb4",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_c8cc832430ca4b66a2abd94b03a171d4);
+            
+    
+            var popup_cd670240932c40a8be093342129e568b = L.popup({maxWidth: '300'});
+
+            
+                var html_7401d914b3c443c5865d5cc803a4e8f7 = $('<div id="html_7401d914b3c443c5865d5cc803a4e8f7" style="width: 100.0%; height: 100.0%;">Allied Gardens, San Diego - Cluster 2</div>')[0];
+                popup_cd670240932c40a8be093342129e568b.setContent(html_7401d914b3c443c5865d5cc803a4e8f7);
+            
+
+            circle_marker_a63783c293994925adde7e78d59e2d2e.bindPopup(popup_cd670240932c40a8be093342129e568b);
+
+            
+        
+</script>
