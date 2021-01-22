@@ -16,6 +16,18 @@ The file contents from San-Diego.csv is retrieved into a Pandas DataFrame. The l
 From the location data obtained after Web Scraping and Geocoding, the venue data is found out by passing in the required parameters to the FourSquare API, and creating another DataFrame to contain all the venue details along with the respective neighborhoods.
 
 ### Folium
-Folium builds on the Python ecosystem's data wrangling strengths and the mapping strengths of the leaflet.js library. All cluster visualization is done with Folium's help, which generates a Leaflet map made using OpenStreetMap technology. 
+Folium builds on the Python ecosystem's data wrangling strengths and the mapping strengths of the leaflet.js library. All cluster visualization is done with Folium's help, which generates a Leaflet map made using OpenStreetMap technology.  
 Creating a map of San Diego with neighborhoods superimposed on top:
 ![Neighbourhoods in San Diego](https://github.com/divyaprakash0426/IBM_DataSciece-Capstone/blob/main/maps/map_sandiego.png)
+
+### K-Means Clustering
+The venue data is then trained using K-means Clustering Algorithm to get the desired clusters to base the analysis on. K-means was chosen as the variables (Venue Categories) are huge, and in such situations,K-means will be computationally faster than other clustering algorithms. We will cluster the neighborhoods into 3 clusters based on their frequency of occurrence for “Indian Restaurants.”The results will allow us to identify which neighborhoods have a higher concentration of Indian Restaurants and which neighborhoods have fewer. Based on Indian restaurants' occurrence in different neighbourhoods, it will help us answer the question as to which neighborhoods are most suitable to open new Indian restaurants.
+
+### Results
+The results from the k-means clustering show that we can categorize the neighborhoods into 3 clusters based on the frequency of occurrence for Indian Restaurants: 
+1. Cluster 0: Neighbourhoods with a low number of Indian Restaurants
+2. Cluster 1: Neighbourhoods with a high number of Indian Restaurants
+3. Cluster 2: Neighbourhoods with a moderate concentration of Indian Restaurants
+
+The clustering results are visualized in the map below with cluster 0 in red color, cluster 1 in purple, and cluster 2 in mint green color.
+![Density of Indian Restaurants in San Diego](https://github.com/divyaprakash0426/IBM_DataSciece-Capstone/blob/main/maps/map_clusters.png)
